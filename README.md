@@ -106,3 +106,51 @@ If you try V1, [open an issue](https://github.com/Kashyaplakkoju/PrismForge-V1/i
 with your Windows version, Android version, connection mode, selected source
 and receiving app. Describe what you expected and what happened. Remove
 personal images, device identifiers and private addresses from attachments.
+
+---
+
+## A look at PrismForge V2
+
+**The next chapter: a studio for teaching, presenting and creating.** V2 is the
+separate paid edition in development. It builds on V1's camera, colour, lighting
+and accessory tools, with a redesigned workspace and new ways to present a
+screen alongside your camera.
+
+The free downloads above are **V1**. V2 source and binaries are not included in
+this repository, and a paid Store release has not been published.
+
+### A workspace that makes room for your work
+
+![PrismForge V2 native Windows studio with Aurora glass](docs/images/studio-v2.png)
+
+The preview stays at the centre, with Camera, Effects, Studio and Settings in a
+single inspector. Clearly labelled Landscape / Portrait controls are available
+on Windows and Android; landscape is the default.
+
+| V2 addition | What it enables |
+| --- | --- |
+| Windows screen and window sharing | Present a desktop or selected window, either on its own or behind a segmented camera presenter. Adjust presenter size and choose either bottom corner. |
+| Android screen sharing | Share your phone screen, or add a rectangular camera tile. Android's consent prompt, visible status and Stop controls keep the session explicit. |
+| Moving video backgrounds | Choose Aurora drift or Soft waves, or loop a local MP4, WebM, MOV or GIF. Pause and resume the background independently. |
+| Visual effects galleries | Browse background, colour-look and accessory choices through thumbnails, with controls grouped by the task. |
+| Personal glass themes | Choose Aurora, Dusk or Obsidian, tune the glass finish, or use System, Dark or Light. A reduced-motion option is included. |
+| Clear framing and quality controls | Switch the outgoing Landscape / Portrait mode on either device. Fresh camera settings target 25 Mbps, with manual reduction available. Actual bitrate varies with content and connection. |
+
+### Find a look, then fine-tune it
+
+![PrismForge V2 colour Looks gallery](docs/images/looks-v2.png)
+
+### Make the studio your own
+
+![PrismForge V2 Dusk glass appearance settings](docs/images/appearance-v2.png)
+
+*These are actual development screenshots of the native Windows V2 interface,
+captured in isolated UI preview mode. No personal camera feed, private screen
+content or device identifiers are shown. They illustrate the interface rather
+than a live processing result.*
+
+Screen sharing and moving backgrounds currently carry **video only**. The
+Android camera tile and the Windows segmented presenter are different modes.
+Final distribution, Store certification and compatibility checks remain part
+of V2's release work; no universal device, FPS or receiving-app guarantee is
+implied by this preview.
