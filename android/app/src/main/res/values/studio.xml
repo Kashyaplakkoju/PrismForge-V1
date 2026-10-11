@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="studio_bg">#F2F3F8</color><color name="studio_surface">#FFFFFF</color>
+    <color name="studio_raised">#F6F7FB</color><color name="studio_accent">#5B62DE</color>
+    <color name="studio_text">#191C29</color><color name="studio_muted">#606780</color>
+    <color name="studio_green">#14704C</color><color name="studio_danger">#A32C33</color>
+    <style name="StudioAction" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:minHeight">52dp</item><item name="android:textSize">14sp</item>
+        <item name="android:textColor">?attr/studioText</item><item name="backgroundTint">?attr/studioRaised</item>
+        <item name="cornerRadius">16dp</item><item name="android:insetTop">0dp</item><item name="android:insetBottom">0dp</item>
+        <item name="iconTint">?attr/studioText</item>
+    </style>
+    <style name="Theme.PrismForgeStudio.Glass" parent="Theme.PrismForgeStudio">
+        <item name="studioBg">#111725</item><item name="studioSurface">#E61B2438</item>
+        <item name="studioRaised">#E6293650</item><item name="studioAccent">#A8B4FF</item>
+        <item name="studioText">#E8EAF4</item><item name="studioMuted">#ABB6D2</item>
+        <item name="studioGreen">#78DFAC</item><item name="studioDanger">#FFB4AB</item>
+        <item name="colorPrimary">#A8B4FF</item><item name="colorOnPrimary">#111322</item>
+        <item name="colorSurface">#1B2438</item><item name="colorOnSurface">#E8EAF4</item>
+        <item name="android:windowLightStatusBar">false</item><item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">#111725</item><item name="android:navigationBarColor">#111725</item>
+    </style>
+</resources>

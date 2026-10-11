@@ -1,0 +1,13 @@
+PrismForge Studio filter packs
+
+1. Open PrismForge Studio.
+2. Controls -> Colour look -> Effects packs (or Search actions -> Effects packs).
+3. Import ZIP and choose a file from packs/archives.
+4. Select the installed pack and its colour LUT, then Apply colour effect.
+5. Adjust LUT strength. Restore effects if Bypass effects is enabled.
+
+Six original looks: Warm Portrait, Soft Daylight, Clean Studio, Cinema Teal, Soft Mono, Evening Warmth.
+The separate update-demo archive adds Warm Portrait1.0.1 alongside1.0.0. Select/remove exact versions.
+Previews are synthetic before/after illustrations. V1 applies colour LUTs; it does not import arbitrary character renderers.
+These local ZIPs can be downloaded/distributed as files. A hosted store is a separate pending feature.
+Development build: release signing, clean-machine tests and dependency/asset clearance remain pending.

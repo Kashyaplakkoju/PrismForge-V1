@@ -1,0 +1,9 @@
+{
+  "assetId": "studio_cap",
+  "displayName": "Studio Brimmed Cap",
+  "anchorMode": "FaceHat",
+  "proceduralAssetId": 1,
+  "scaleMultiplier": 1.0,
+  "defaultOpacity": 1.0,
+  "minConfidence": 0.4
+}

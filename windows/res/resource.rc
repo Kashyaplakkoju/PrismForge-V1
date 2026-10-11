@@ -1,0 +1,8 @@
+id ICON "prismforge.ico"
+#include "wx/msw/wx.rc"
+
+// Stable shell display name used by AppIcons::InitializeWindowIdentity.
+STRINGTABLE
+BEGIN
+    14001 "PrismForge Studio"
+END

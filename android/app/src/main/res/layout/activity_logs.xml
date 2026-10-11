@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="20dp" android:background="?attr/studioBg">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/studio_diagnostics" android:textSize="24sp" android:fontFamily="sans-serif-medium" android:textColor="?attr/studioText" android:layout_marginBottom="8dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/studio_logs_stay_on_this_device_until_you_choose_to_share_check_for_pers" android:textSize="13sp" android:textColor="?attr/studioMuted" android:layout_marginBottom="16dp" />
+    <ScrollView android:id="@+id/logScrollView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:background="?attr/studioSurface" android:fillViewport="true">
+        <TextView android:id="@+id/logTextView" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="16dp" android:textColor="?attr/studioText" android:fontFamily="monospace" android:textSize="12sp" android:textIsSelectable="true" />
+    </ScrollView>
+    <com.google.android.material.button.MaterialButton android:id="@+id/btnSaveLogs" style="@style/StudioAction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/studio_share_diagnostics" />
+</LinearLayout>

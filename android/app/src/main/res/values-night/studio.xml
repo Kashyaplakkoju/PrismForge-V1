@@ -1,0 +1,6 @@
+<resources>
+    <color name="studio_bg">#12141C</color><color name="studio_surface">#1A1D28</color>
+    <color name="studio_raised">#212533</color><color name="studio_accent">#9298FF</color>
+    <color name="studio_text">#E8EAF4</color><color name="studio_muted">#A3AAC4</color>
+    <color name="studio_green">#7DE2B2</color><color name="studio_danger">#FFB4AB</color>
+</resources>

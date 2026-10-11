@@ -1,0 +1,62 @@
+{
+  "CreatedUtc": "2026-10-03T16:27:28.4788848Z",
+  "TestCommand": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File tests/framedelivery/run-tests.ps1",
+  "TestResult": {
+    "Passed": 18,
+    "Total": 18,
+    "RunnerExitCode": 0,
+    "Configuration": "MSVC x64 /O2 C++17 + FFmpeg avutil",
+    "WatchdogSeconds": 30
+  },
+  "FailureProbe": {
+    "ChildExitCode": 19,
+    "RunnerExitCode": 1,
+    "Result": "Intentional nonzero propagated"
+  },
+  "WatchdogProbe": {
+    "TimeoutSeconds": 1,
+    "RunnerExitCode": 1,
+    "Result": "Intentionally stalled child killed and failure propagated"
+  },
+  "Sources": [
+    {
+      "Path": "windows/src/video/latestframedelivery.h",
+      "SHA256": "A41085A7AFC532EED1FDC671597C0CDDF81D5305D90846467E20867F6313879A"
+    },
+    {
+      "Path": "tests/framedelivery/frame_delivery_tests.cpp",
+      "SHA256": "C88EDAD7483CAB7566694F443D592454D62CD2FAB0F717C8D2EBBFDB8B6A41AA"
+    },
+    {
+      "Path": "tests/framedelivery/run-tests.ps1",
+      "SHA256": "2406F0EC33BA3A7AA78A13AB449B53BAE29F3F0031F66F1926C90307909F7789"
+    }
+  ],
+  "RawLogs": [
+    {
+      "Path": "build/frame-delivery/frame-delivery-build.log",
+      "SHA256": "8825C45674AD576F44F87F4C4E64962B8B1B189682A1901DF68001AE0E290D22"
+    },
+    {
+      "Path": "build/frame-delivery/frame-delivery-tests.log",
+      "SHA256": "56318E0D61822533A5002FF1F660612C72F38EE16DD576AA887CF71967E0E46F"
+    },
+    {
+      "Path": "build/frame-delivery/frame-delivery-tests.stderr.log",
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "Path": "build/frame-delivery/failure-runner-probe.log",
+      "SHA256": "566C6B154841C9DF67C22CC55FE1A9F0836D14DA355BC43E05F4B02922BB4AB2"
+    },
+    {
+      "Path": "build/frame-delivery/watchdog-runner-probe.log",
+      "SHA256": "C9CC08171E5CECDFCFD97F6B02225EFDAE19BEC29E2794CFD5A9B59E5B8D358B"
+    }
+  ],
+  "Limitations": [
+    "Standalone software frame delivery and real SessionGate integration; no live phone/display or receiving-app latency measurement.",
+    "One active and one pending frame queue bound excludes producer temporary references and clones intentionally retained by callbacks.",
+    "Source gate rejects already active old frames; callback-thread owner destruction and Start are prohibited."
+  ]
+}

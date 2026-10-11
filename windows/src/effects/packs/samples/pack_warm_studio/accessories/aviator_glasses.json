@@ -1,0 +1,9 @@
+{
+  "assetId": "aviator_glasses",
+  "displayName": "Studio Aviator Glasses",
+  "anchorMode": "FaceGlasses",
+  "proceduralAssetId": 0,
+  "scaleMultiplier": 1.0,
+  "defaultOpacity": 1.0,
+  "minConfidence": 0.45
+}

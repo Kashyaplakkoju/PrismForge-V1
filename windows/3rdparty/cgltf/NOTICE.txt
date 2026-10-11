@@ -1,0 +1,9 @@
+cgltf v1.15 (MIT)
+Official repository: https://github.com/jkuhlmann/cgltf
+Pinned commit: 360db1a95480fe102ae9c69b27c5d101167ff5ba
+Tag: v1.15, annotated tag bbeb5b0b070ddacddac6852fb72143eb68454937
+Header SHA256: E378A21C084BF1F288BB799DE827BB26906EFB024255F1ECF1705EA13F11C6EC
+License SHA256: F619925F80EF862497AAF8E8155EF218FA6A2190055129523CA3DF9119A9BA95
+Header is unmodified. Used only for bounded in-memory static GLB2 parsing.
+PrismForge does not call cgltf file/network buffer-loading functions.
+Retain the accompanying LICENSE in source and distributed notices.

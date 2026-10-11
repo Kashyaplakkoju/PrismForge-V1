@@ -1,0 +1,234 @@
+{
+  "schema": "PFM1",
+  "headerBytes": 52,
+  "manifestPayloadHashesVerified": 53,
+  "conversion": "Full scene transforms and inverse-transpose normals; metres and authored bridge origin preserved; UV0 unchanged; RGBA sRGB base/linear metallic-roughness; one uniform fit scale. Runtime validates all bounds before rendering.",
+  "coordinateFrame": "+X right, +Y up, +Z viewer",
+  "nativeLimits": {
+    "fileBytes": 67108864,
+    "vertices": 60000,
+    "triangles": 60000,
+    "materials": 8,
+    "textureDimension": 2048
+  },
+  "models": [
+    {
+      "id": "aurora-fox-mask",
+      "sourceSha256": "493f1e2960ec7ddd83c5326c21e4a9f653bbb0db2ccdc04f837e7e2c690801c3",
+      "frozenOriginalSourceSha256": "5cc99787d917b53289dc0af47d4285a7cc814139d622bd4862d33f69c1b57849",
+      "sourceRevision": "native-repaired-20261009",
+      "nativeFile": "aurora-fox-mask.pfmodel",
+      "nativeBytes": 34284692,
+      "nativeSha256": "cb0ddce0c61e32d5f414d90f7af6550a472077af90e1141438ab16372f1dd574",
+      "vertices": 11418,
+      "triangles": 22800,
+      "materials": 1,
+      "parts": [
+        {
+          "node": "AuroraFoxMask",
+          "material": 0,
+          "vertices": 11418,
+          "triangles": 22800,
+          "worldMatrixRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "textureDimensions": [
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "embeddedImageSha256": {
+        "base": "03b1673c4fe41924a17b49bf428ceee50871b9303941a9dcc86494f5366b1ddf",
+        "metalRough": "54e2e2bf2037d0b7d7429f824876c79e470acee6bb701faf4564e4a57c9c07fe"
+      },
+      "boundsMeters": {
+        "min": [
+          -0.10355181992053986,
+          -0.04023569077253342,
+          -0.04085877910256386
+        ],
+        "max": [
+          0.10355181246995926,
+          0.1886652261018753,
+          0.05134688690304756
+        ]
+      },
+      "authoredPupilSpacingMeters": 0.064,
+      "authoredEyeHeightMeters": 0.008,
+      "authoredEyeDepthMeters": 0.014
+    },
+    {
+      "id": "nocturne-owl-mask",
+      "sourceSha256": "d9438c6679eb76c3bf382101db489140125cf8096592c7eebcaa97a8a6bb51a7",
+      "frozenOriginalSourceSha256": "7918c045aa8c65e94b30d70bea191bfd201da2e69935bd125238e96157ac5b2c",
+      "sourceRevision": "native-repaired-20261009",
+      "nativeFile": "nocturne-owl-mask.pfmodel",
+      "nativeBytes": 34251540,
+      "nativeSha256": "62d78ee05de4c16695c66a8daf66cb4a701f6fe705d8eef98cea57f9dccc0ee6",
+      "vertices": 10906,
+      "triangles": 21752,
+      "materials": 1,
+      "parts": [
+        {
+          "node": "NocturneOwlMask",
+          "material": 0,
+          "vertices": 10906,
+          "triangles": 21752,
+          "worldMatrixRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "textureDimensions": [
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "embeddedImageSha256": {
+        "base": "ffb08de1e385d097aeabc45d662396fb7171d9e44016fa4abdd7a2b1d6988acf",
+        "metalRough": "3fffbc67607826e2def9e579f30b06ff40e946d30da2f32c5ce73380528d158c"
+      },
+      "boundsMeters": {
+        "min": [
+          -0.12865477800369263,
+          -0.06967278569936752,
+          -0.0389229953289032
+        ],
+        "max": [
+          0.12866175174713135,
+          0.1663494110107422,
+          0.04947241395711899
+        ]
+      },
+      "authoredPupilSpacingMeters": 0.076,
+      "authoredEyeHeightMeters": 0.008,
+      "authoredEyeDepthMeters": 0.007
+    },
+    {
+      "id": "atlas-explorer-helmet",
+      "sourceSha256": "b1c19757ae096dd852d45ddfde7f1468bbd7895e5e6e3e678928fad4e453f926",
+      "frozenOriginalSourceSha256": "b1c19757ae096dd852d45ddfde7f1468bbd7895e5e6e3e678928fad4e453f926",
+      "sourceRevision": "original-3d-filters-20261009",
+      "nativeFile": "atlas-explorer-helmet.pfmodel",
+      "nativeBytes": 34784724,
+      "nativeSha256": "bc3830b6b5d86baec38b83f8f3dae8af0006284da316ffa71bc66e45744f591d",
+      "vertices": 19279,
+      "triangles": 38328,
+      "materials": 2,
+      "parts": [
+        {
+          "node": "AtlasExplorerHelmetShell",
+          "material": 0,
+          "vertices": 17634,
+          "triangles": 35200,
+          "worldMatrixRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "node": "AtlasVisorBubble",
+          "material": 1,
+          "vertices": 1645,
+          "triangles": 3128,
+          "worldMatrixRowMajor": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "textureDimensions": [
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "embeddedImageSha256": {
+        "base": "08594b50d9b0419c621b54b0c38ed5b8a156d1dd3ba856252cecc3f0a51cf3e2",
+        "metalRough": "99e56da4172c4ae7cba1c449c0d194340223ea92247a86549b3c7b126718162e"
+      },
+      "boundsMeters": {
+        "min": [
+          -0.1460949182510376,
+          -0.13163292407989502,
+          -0.18553844094276428
+        ],
+        "max": [
+          0.1460949182510376,
+          0.14864560961723328,
+          0.08269082009792328
+        ]
+      },
+      "authoredPupilSpacingMeters": 0.064,
+      "authoredEyeHeightMeters": 0.008,
+      "authoredEyeDepthMeters": 0.0
+    }
+  ],
+  "provenance": {
+    "author": "Antigravity IDE",
+    "claim": "Original procedural models according to supplied delivery; independent geometry/material/hash review completed, visual quality and commercial suitability remain separately reviewable."
+  },
+  "knownAssetReview": "Owl authored aperture spacing is .076m, not the delivery common .064m. Native fox/owl revision aligns painted eye features to actual aperture UVs and closes owl horn bases; independent front renders reviewed. Artistic fit still needs actual native live review."
+}

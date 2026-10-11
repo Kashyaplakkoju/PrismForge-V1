@@ -1,0 +1,16 @@
+# Pack manifests declare exact bytes; checkout must never rewrite their payloads.
+deliveries/launch-packs-20261009/** -text
+windows/src/effects/packs/samples/** -text
+tests/packs/** -text
+# Gallery catalogue/assets retain verified raw bytes in source exports.
+deliveries/pack-gallery-20261009/** -text
+
+# Pinned upstream assets and lab receipts retain exact acquired bytes.
+experiments/jeeliz-3d-lab/** -text
+
+# Frozen native filter deliveries and runtime manifests declare exact payload bytes.
+assets/face-filters/** -text
+windows/res/face-filters/** -text
+
+# Preserve the official parser header and license hashes in source archives.
+windows/3rdparty/cgltf/** -text

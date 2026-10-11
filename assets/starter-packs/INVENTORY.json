@@ -1,0 +1,204 @@
+{
+  "delivery": "launch-packs-20261009",
+  "generatedDateUtc": "2026-10-09T10:00:00Z",
+  "packsCount": 6,
+  "updateDemosCount": 1,
+  "masterScene": {
+    "path": "master_scene.png",
+    "dimensions": "512x512",
+    "format": "PNG (RGB8)",
+    "sha256": "c4683081bfc7d7edff5e76c2a2bb97acda3e7a11810dae86b1bf8d71a2cb1783",
+    "sizeBytes": 46146
+  },
+  "archives": [
+    {
+      "packId": "com.prismforge.packs.warm_portrait",
+      "version": "1.0.0",
+      "displayName": "Warm Portrait",
+      "isUpdateDemo": false,
+      "archiveFilename": "warm_portrait-1.0.0.zip",
+      "archiveRelativePath": "archives/warm_portrait-1.0.0.zip",
+      "archiveSha256": "72e3a3643cc6fa2c912486400bc263b826372f5c5123799b6506ff0b3fb19010",
+      "archiveSizeBytes": 97143,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "5899775c0055c6cef1612f64892e49e5c9b35034de165504d7340f5fdb4b74ca",
+          "sizeBytes": 790
+        },
+        {
+          "path": "preview.png",
+          "sha256": "c4f40acf5e7cde06bbc447c1ca307a48cb4862859397f727afa7d6f82c720c4e",
+          "sizeBytes": 46150
+        },
+        {
+          "path": "luts/warm_portrait.cube",
+          "sha256": "4a4da6ca6cb251bbe536b39b519425d448daf705653cea6315c70b27d987de48",
+          "sizeBytes": 132778
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.soft_daylight",
+      "version": "1.0.0",
+      "displayName": "Soft Daylight",
+      "isUpdateDemo": false,
+      "archiveFilename": "soft_daylight-1.0.0.zip",
+      "archiveRelativePath": "archives/soft_daylight-1.0.0.zip",
+      "archiveSha256": "a87d34daccf13f9f34fcddf4af5edbe83cddfda82131414c85e3bee3a1eaac5b",
+      "archiveSizeBytes": 94551,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "9a7326f22b0e6498d80a0a1c34a04faf5736b92bd14b1c63defdde5b6f7844bd",
+          "sizeBytes": 792
+        },
+        {
+          "path": "preview.png",
+          "sha256": "17012988d6b4a63ba17ac217a364af0667bbc671325e2764c65862084b670d50",
+          "sizeBytes": 46183
+        },
+        {
+          "path": "luts/soft_daylight.cube",
+          "sha256": "abe1b84083ff3f1774b37ea84ff2ae1d3c446164b3996cc42e395f9eb0e99c01",
+          "sizeBytes": 132778
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.clean_studio",
+      "version": "1.0.0",
+      "displayName": "Clean Studio",
+      "isUpdateDemo": false,
+      "archiveFilename": "clean_studio-1.0.0.zip",
+      "archiveRelativePath": "archives/clean_studio-1.0.0.zip",
+      "archiveSha256": "3d3bd58dfe6230dbfa94c207bea9ae9e0012c9add21275be44cfe4503da83322",
+      "archiveSizeBytes": 89971,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "933e9c6e781caef2c2cf254a58d1744b908c6fb5cabb8b47cca82dccc3b09819",
+          "sizeBytes": 790
+        },
+        {
+          "path": "preview.png",
+          "sha256": "4d21eda4f1a7eb557d283cc7aa2986ad5ccd346827ecfdd61952c23df8b3f9cb",
+          "sizeBytes": 45447
+        },
+        {
+          "path": "luts/clean_studio.cube",
+          "sha256": "0457d56a56e57c797072dcdbac21be7f0e4b1475db8cc01e78e3b6eb9b0e6b70",
+          "sizeBytes": 132776
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.cinema_teal",
+      "version": "1.0.0",
+      "displayName": "Cinema Teal",
+      "isUpdateDemo": false,
+      "archiveFilename": "cinema_teal-1.0.0.zip",
+      "archiveRelativePath": "archives/cinema_teal-1.0.0.zip",
+      "archiveSha256": "bb29c2a1fcd18fb88d2a4f23a0ea7d137d4f104aeade4d79b73c1e0e7cafc205",
+      "archiveSizeBytes": 94928,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "3b2695289cd7c3083e77a3afa8e0013e6c6de5eb7cfa420196dfd9daf7f86c0d",
+          "sizeBytes": 787
+        },
+        {
+          "path": "preview.png",
+          "sha256": "90794f1f38fd1cf3b9432999bb55ed159a828ec004790c1820f8f51f05662aef",
+          "sizeBytes": 45954
+        },
+        {
+          "path": "luts/cinema_teal.cube",
+          "sha256": "62928b78ea0d838cf9f80435c178c32a2d26fd72464b316539565a218ddb3974",
+          "sizeBytes": 132774
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.soft_mono",
+      "version": "1.0.0",
+      "displayName": "Soft Mono",
+      "isUpdateDemo": false,
+      "archiveFilename": "soft_mono-1.0.0.zip",
+      "archiveRelativePath": "archives/soft_mono-1.0.0.zip",
+      "archiveSha256": "cc587425754298b128f6a28fabb1a461f0d4d7922118a926b642262cb864a1ed",
+      "archiveSizeBytes": 41938,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "1510e62860cb6ff1580b5679f7188790d2327ad9f93dc73324a07bbeeddaa468",
+          "sizeBytes": 758
+        },
+        {
+          "path": "preview.png",
+          "sha256": "8a4959cd7ba70d885f59f0f94b041776fe660ec782a3d9fc628bab3b16f75def",
+          "sizeBytes": 30580
+        },
+        {
+          "path": "luts/soft_mono.cube",
+          "sha256": "21647238e95ed82716f0193b61a931d4db349dcbf009e820a48a1d09c96e7cd2",
+          "sizeBytes": 132770
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.evening_warmth",
+      "version": "1.0.0",
+      "displayName": "Evening Warmth",
+      "isUpdateDemo": false,
+      "archiveFilename": "evening_warmth-1.0.0.zip",
+      "archiveRelativePath": "archives/evening_warmth-1.0.0.zip",
+      "archiveSha256": "0f5065985f83275aadd46b5fd41fe402029750fe8c9ab684bcbdb5799d36e589",
+      "archiveSizeBytes": 95551,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "8999b51870454b50b40b422badba274dc899dc09e19483f8ff3c53f58dee35fb",
+          "sizeBytes": 790
+        },
+        {
+          "path": "preview.png",
+          "sha256": "49da6dfcbb04500206801a9261b77bb9c10b25456c0331a8ebcf638d0d417255",
+          "sizeBytes": 46158
+        },
+        {
+          "path": "luts/evening_warmth.cube",
+          "sha256": "aa13f1b566cab8f2bd24749462676bc25cb5c0a42ea43bffa82d02eeb9160cc1",
+          "sizeBytes": 132780
+        }
+      ]
+    },
+    {
+      "packId": "com.prismforge.packs.warm_portrait",
+      "version": "1.0.1",
+      "displayName": "Warm Portrait",
+      "isUpdateDemo": true,
+      "archiveFilename": "warm_portrait-1.0.1.zip",
+      "archiveRelativePath": "update-demo/archives/warm_portrait-1.0.1.zip",
+      "archiveSha256": "434a2f1c076e4af754c3d00e1d0ef9b6eb21c506a4dc5448f07b1ec91a22eed5",
+      "archiveSizeBytes": 97213,
+      "members": [
+        {
+          "path": "manifest.json",
+          "sha256": "9683501a260ae0463fb4f95089836827df82bb3812d6d7b768d1da57abb62091",
+          "sizeBytes": 777
+        },
+        {
+          "path": "preview.png",
+          "sha256": "1165783f8be81c719ee66029b8ec4c48b62e28f4406c1fb6de917b6c39a4dc0f",
+          "sizeBytes": 46279
+        },
+        {
+          "path": "luts/warm_portrait.cube",
+          "sha256": "ebc118edb8597fa82b341c89b0de5e8b532910b76516f18d8cd42453d4659963",
+          "sizeBytes": 132778
+        }
+      ]
+    }
+  ]
+}

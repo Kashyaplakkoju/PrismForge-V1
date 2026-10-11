@@ -1,0 +1,8 @@
+PrismForge original 3D filter starter collection
+Source: Antigravity IDE delivery original-3d-filters-20261009.
+Delivery licence claim: Proprietary - PrismForge Studio internal production asset collection.
+Original procedural sources and exact GLBs are retained in assets/face-filters/original-3d-filters-20261009.
+Native fox/owl artwork and owl horn-base corrections are preserved in assets/face-filters/native-repaired-20261009.
+These assets are distinct from third-party Jeeliz demos and downloaded caps.
+PFM1 conversion preserves original metric geometry and material/texture metadata.
+Artwork originality is the supplier claim; no independent legal clearance or commercial quality certification is implied.

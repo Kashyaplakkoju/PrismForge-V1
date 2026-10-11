@@ -1,0 +1,6 @@
+runs/
+build/
+logs/
+*.log
+*.obj
+*.exe

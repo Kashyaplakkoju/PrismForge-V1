@@ -1,0 +1,10 @@
+<resources>
+    <attr name="studioBg" format="color" />
+    <attr name="studioSurface" format="color" />
+    <attr name="studioRaised" format="color" />
+    <attr name="studioText" format="color" />
+    <attr name="studioMuted" format="color" />
+    <attr name="studioAccent" format="color" />
+    <attr name="studioGreen" format="color" />
+    <attr name="studioDanger" format="color" />
+</resources>

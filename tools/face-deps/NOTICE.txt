@@ -1,0 +1,25 @@
+PrismForge Studio native face geometry assets
+
+MediaPipe Windows x64 native runtime: 0.10.32, Google AI Edge.
+Official wheel: mediapipe-0.10.32-py3-none-win_amd64.whl.
+Wheel SHA256: 438d98977a4e1b0f88070ad16537a328912f847ce9debf236da047b0b483cbfd.
+https://pypi.org/project/mediapipe/0.10.32/
+Apache-2.0; the unmodified wheel LICENSE is retained in licenses/mediapipe/LICENSE.
+
+FaceLandmarker float16 v1 task bundle contains the BlazeFace short-range detector,
+FaceMesh v2 landmark model and face blendshape model v2. Original public model
+cards identify Apache-2.0 licensing; the associated license is retained here.
+https://developers.google.com/edge/mediapipe/solutions/vision/face_landmarker
+https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+https://storage.googleapis.com/mediapipe-assets/MediaPipe%20BlazeFace%20Model%20Card%20%28Short%20Range%29.pdf
+https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf
+https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Blendshape%20V2.pdf
+
+Canonical face topology from google-ai-edge/mediapipe commit
+8317ba78778738ba90a521e7e4580a2ba0129c81, under Apache-2.0.
+https://github.com/google-ai-edge/mediapipe/blob/8317ba78778738ba90a521e7e4580a2ba0129c81/mediapipe/modules/face_geometry/data/canonical_face_model.obj
+
+The app computes approximate facial normals and relative-depth self-occlusion
+from these landmarks locally. This is not Google's proprietary Meet renderer
+and does not reconstruct scene lighting or remove shadows baked into the input.
+No personal test images are distributed with these model assets.

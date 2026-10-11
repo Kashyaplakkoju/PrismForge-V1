@@ -1,0 +1,57 @@
+PrismForge isolated Jeeliz 3D lab
+=================================
+Jeeliz FaceFilter core, NN_DEFAULT model, Three helper and official helmet, anonymous mask and dog geometry/textures:
+Repository https://github.com/jeeliz/jeelizFaceFilter
+Pinned commit 6f2695120b992511fd6cb1fd80c600bb957cd08c
+Original Apache 2.0 licence: vendor/JEELIZ-LICENSE.txt
+The upstream README states included demos use its FaceFilter licence.
+The pinned upstream dog demo source is preserved as vendor/UPSTREAM-dog-main.js.txt.
+
+Three.js renderer: bundled upstream release 97, preserved unmodified.
+Original MIT licence: vendor/THREE-LICENSE.txt
+Three.js r97 release commit 2410ad1a8f5844df00191600eafda59def537830.
+
+Every acquired file has exact source URL, byte size and SHA-256 in assets-manifest.json.
+No third-party CDN is used at runtime. No camera is acquired until Start camera is pressed.
+Lab-authored UI, lifetime controls, standard Phong materials and direct morph interpolation
+replace the upstream demo's automatic camera start, drag interaction, TWEEN/glfx/jquery overlay
+and flexible delayed materials. Geometry, texture bytes, uniform scales and original offsets
+remain unchanged. The original full 26-frame tongue morph sequence is preserved.
+Live tracking uses the unmodified upstream helper. Render-only motion uses the same pin's
+documented pivot/pose formulas for an uncropped 4:3 source and never claims live tracking.
+The helmet model preview contains the original authored face proxy as a neutral head reference.
+The live helmet uses that proxy as depth-only occlusion instead of the upstream single-canvas
+video-texture darkening shader. This is approximate geometry, not personal head reconstruction.
+Helmet, visor, face and mask source bytes, uniform scales, offsets and rotations are preserved.
+Original Rupy helmet branding remains in its texture. Model/brand commercial clearance is not
+established by this experimental preview. Upstream helmet/mask demo source is preserved as text.
+No native app, virtual output or face-swap implementation is included.
+
+2026-10-09 dog fitting adaptation: head-attachment.js adds head-local parent
+calibrations for crown and muzzle without changing original mesh vertices, scales
+or child offsets. The existing helmet face geometry is reused as a depth-only
+dog head proxy with a distinct documented calibration. This approximation does
+not reconstruct personal head/hair or handle hand occlusion.
+
+2026-10-09 expanded collection: Tiger and static Werewolf demo models and
+textures are from the same pinned official Jeeliz repository. Their exact raw
+bytes, source paths and hashes appear in assets-manifest.json; both upstream
+demo source files are preserved under vendor/. Tiger restores its original upstream demo2,3,2 calibration; raw authored
+vertex data stays unchanged. The earlier uniform2 shortened its face. Its lower jaw is animated
+through the upstream15degree hinge; soft eye apertures show the independent
+raw video. No upstream fire particles, video-texture distortion, full42MB
+werewolf animation or delayed flex shader is included. Werewolf has no mouth
+animation. Full model/brand clearance for commercial launch is not claimed.
+
+Orbit astronaut helmet and Prism cyber mask are original mathematically
+authored lab geometry with standard Three materials. They reuse the pinned
+head proxy as depth-only occlusion; no personal head reconstruction is claimed.
+Their geometry/materials are owned by each rig. Cached upstream texture maps
+remain owned by the asset cache and survive filter disposal. All seven looks
+remain isolated browser previews, without native output integration.
+
+2026-10-09 local static GLB import: GLTFLoader.js is the exact Three.jsr97
+loader from commit2410ad1a8f5844df00191600eafda59def537830. The existing
+full MIT licence applies; its exact hash and source are in assets-manifest.json.
+User-selected files remain local in browser memory and do not enter any
+package or native output. Uploaded model rights remain their owners'.

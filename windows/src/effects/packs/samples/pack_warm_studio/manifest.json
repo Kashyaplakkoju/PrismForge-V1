@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "packId": "com.prismforge.packs.warmstudio",
+  "version": "1.0.0",
+  "displayName": "Warm Studio Look",
+  "description": "Golden amber lighting grade with procedural aviator glasses",
+  "author": "PrismForge Effects Studio",
+  "previewImagePath": "preview.raw",
+  "assets": [
+    {
+      "type": "CubeLut",
+      "id": "warm_studio_lut",
+      "path": "luts/warm_studio.cube",
+      "sha256": "558bc64f7f315764c707a22f5f3d5ee594b75aa8c9c5d0989d353c4a08255732",
+      "size": 1871
+    },
+    {
+      "type": "TrackedAccessory",
+      "id": "aviator_glasses",
+      "path": "accessories/aviator_glasses.json",
+      "sha256": "0e2b7265c4814b40e773f1a596c1fbb9dbc01fc9276d7d87131f0ecdad7211e2",
+      "size": 218
+    },
+    {
+      "type": "PreviewImage",
+      "id": "warm_studio_preview",
+      "path": "preview.raw",
+      "sha256": "2a67e39f37ee3c0671d2e3c59021b9aafa4686ccf896a25a5a53143115f79d40",
+      "size": 16384
+    }
+  ]
+}

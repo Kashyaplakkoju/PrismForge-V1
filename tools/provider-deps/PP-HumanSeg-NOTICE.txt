@@ -1,0 +1,12 @@
+PP-HumanSeg person segmentation model
+Copyright (c) 2021 PaddlePaddle Authors. All Rights Reserved.
+OpenCV Zoo preprocessing reference: Copyright (C) 2021, Shenzhen Institute of
+Artificial Intelligence and Robotics for Society. Third-party copyrights belong
+to their respective owners.
+
+Model and directory license: Apache License 2.0; see LICENSE.
+Model bytes are unchanged. PrismForge supplies its own manifest and C++ preprocessing.
+Upstream: https://github.com/opencv/opencv_zoo/tree/47534e27c9851bb1128ccc0102f1145e27f23f98/models/human_segmentation_pphumanseg
+Model: human_segmentation_pphumanseg_2023mar.onnx
+SHA256: 552d8a984054e59b5d773d24b9b12022b22046ceb2bbc4c9aaeaceb36a9ddf24
+Size: 6163938 bytes

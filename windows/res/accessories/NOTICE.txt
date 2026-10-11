@@ -1,0 +1,6 @@
+Pokemon Masters cap
+Author: Nick Pekarsky (https://sketchfab.com/kolumba1991)
+Source: https://sketchfab.com/3d-models/pokemon-masters-cap-892e724659c44d6c8771252523075b54
+License: CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/)
+Changes: scene transforms, pose-fit normalization, native mesh and bounded RGBA export.
+The White tennis cap and privately supplied Royal crown assets are excluded from the public export.

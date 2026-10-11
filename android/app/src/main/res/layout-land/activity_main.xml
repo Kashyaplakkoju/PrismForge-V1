@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="?attr/studioBg" android:orientation="vertical" android:padding="24dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingBottom="16dp">
+        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/studio_vcamdroid_studio" android:textColor="?attr/studioText" android:textSize="18sp" android:fontFamily="sans-serif-medium" />
+        <com.google.android.material.button.MaterialButton android:id="@+id/btnAppearance" style="@style/Widget.Material3.Button.TextButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/studio_theme" android:tooltipText="@string/studio_system_dark_or_light_appearance" />
+        <ImageButton android:id="@+id/logReportButton" android:layout_width="48dp" android:layout_height="48dp" android:padding="14dp" android:background="@drawable/bg_action_button" android:src="@drawable/log_white" android:contentDescription="@string/studio_open_diagnostics" android:tooltipText="@string/studio_open_diagnostics" app:tint="?attr/studioMuted" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="horizontal">
+        <ScrollView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:layout_marginEnd="24dp" android:fillViewport="true">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/studio_your_phone_your_best_camera" android:textColor="?attr/studioText" android:textSize="26sp" android:fontFamily="sans-serif-medium" android:layout_marginBottom="6dp" />
+                <TextView android:id="@+id/connectionStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/studio_scan_the_code_in_vcamdroid_on_your_computer" android:textColor="?attr/studioMuted" android:textSize="14sp" android:accessibilityLiveRegion="polite" android:layout_marginBottom="18dp" />
+                <LinearLayout android:id="@+id/bottomConnectBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingTop="20dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/studio_or_connect_another_way" android:textColor="?attr/studioMuted" android:textSize="13sp" android:layout_marginBottom="12dp" />
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnConnectUsb" style="@style/StudioAction" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="6dp" android:text="@string/studio_usb_cable" app:icon="@drawable/ic_usb" android:tooltipText="@string/studio_connect_using_usb_debugging" />
+                        <com.google.android.material.button.MaterialButton android:id="@+id/btnConnectWifi" style="@style/StudioAction" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="6dp" android:text="@string/studio_enter_address" app:icon="@drawable/ic_wifi" android:tooltipText="@string/studio_enter_the_computer_s_local_ip_address" />
+                    </LinearLayout>
+                    <com.google.android.material.button.MaterialButton android:id="@+id/btnReconnect" style="@style/Widget.Material3.Button.TextButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/studio_reconnect_to_last_computer" android:visibility="gone" />
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/studio_local_connection_keep_both_devices_on_the_same_network" android:textColor="?attr/studioMuted" android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <com.google.android.material.card.MaterialCardView android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" app:cardCornerRadius="24dp" app:cardBackgroundColor="?attr/studioSurface" app:strokeWidth="1dp" app:strokeColor="?attr/studioRaised">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <androidx.camera.view.PreviewView android:id="@+id/viewFinder" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <com.prismforge.studio.video.overlays.ScannerOverlay android:id="@+id/overlay" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" app:text="" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom|center_horizontal" android:layout_margin="16dp" android:padding="10dp" android:background="@drawable/bg_live_badge" android:text="@string/studio_pair_with_qr_code" android:textSize="11sp" android:letterSpacing="0.08" android:textColor="?attr/studioText" />
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

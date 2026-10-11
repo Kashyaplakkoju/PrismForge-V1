@@ -1,0 +1,134 @@
+{
+  "apng.png": {
+    "size": 109,
+    "sha256": "da769453c3e8d3f90a925e1a6ba784f51572477f5746e1834877d00d2254d6ea"
+  },
+  "bad_adler.png": {
+    "size": 89,
+    "sha256": "7be34506b83f35029a3fd33804530eacb480396b0c9e2d775b8ee5c7543d9cbe"
+  },
+  "bad_orientation.png": {
+    "size": 127,
+    "sha256": "4ee6d184c233d48d4f8fe0787a6b08f9134062cc758661e2be4dca5396b469fd"
+  },
+  "damaged_deflate.png": {
+    "size": 89,
+    "sha256": "dfe75420a931945ea2df0232715f125a8baf11bfe402b22ab92e550341094aa7"
+  },
+  "dynamic.png": {
+    "size": 1263,
+    "sha256": "713573d2ea56d5e93dcb2aa31a43442f8deeced0f78550844ba54dab404e9f23"
+  },
+  "dynamic.rgba": {
+    "size": 32768,
+    "sha256": "9da57ca46c921c471f833a093f1f4adecd06ad195e62238650785c855f3e6a9b"
+  },
+  "gamma.png": {
+    "size": 105,
+    "sha256": "48041688f2b85a0fa7f3bcf05f7f265bae525bd948a37d249fb450c79459a25d"
+  },
+  "icc.png": {
+    "size": 133,
+    "sha256": "c28236387bc1adfe5688cc4d85a4b547994c48bdfb6c5a83e9a67285996f14e6"
+  },
+  "invalid_filter.png": {
+    "size": 89,
+    "sha256": "430daa614731c9793f9f1ec50b229a5e311c0ed139254aa9e649dd71ec75d260"
+  },
+  "jpeg_orientation_1.jpg": {
+    "size": 780,
+    "sha256": "0715a61418ce83db6e19564f58334f4dafee93001d5fd6a3eeb27bbbd31df966"
+  },
+  "jpeg_orientation_2.jpg": {
+    "size": 780,
+    "sha256": "a2af644aab5cd71658220f352654279ef36b991a9f56c16cf8691aad1eff19bf"
+  },
+  "jpeg_orientation_3.jpg": {
+    "size": 780,
+    "sha256": "27154fc6ab1999aebfb7767cbd545d2a4ac3fe1def0ecf6fc71527d3011711ed"
+  },
+  "jpeg_orientation_4.jpg": {
+    "size": 780,
+    "sha256": "56b6ce5e043d861e6f5d3976e54e3696092173ff3a7dab142a7064193ab9763a"
+  },
+  "jpeg_orientation_5.jpg": {
+    "size": 780,
+    "sha256": "5dc105b64ef3bcf5f94cc14f2a020b801018f86c093e05790167430df081c86d"
+  },
+  "jpeg_orientation_6.jpg": {
+    "size": 780,
+    "sha256": "0c18f8d06e4671cb9365fc4031b0531d71695d66496bc1ad00b354ab27bae861"
+  },
+  "jpeg_orientation_7.jpg": {
+    "size": 780,
+    "sha256": "b57889c5f1829496999ec9f65cb8aeec6791545fab4aea84f86aaa788b6e7fbc"
+  },
+  "jpeg_orientation_8.jpg": {
+    "size": 780,
+    "sha256": "4cb0b389a03caebc826c3e7de2381a0859d8b9f0d52794f90273c33b0d893bc1"
+  },
+  "orientation_1.png": {
+    "size": 127,
+    "sha256": "4dac49e1d7667e4a4f112b156a8b4f74a9f3fcd1daae921da12653e4da68c2f5"
+  },
+  "orientation_2.png": {
+    "size": 127,
+    "sha256": "fd1eb0ec1c2b434b88d4925a7f1d7ce8ef3e7d753893a7c247176f71c9e844d8"
+  },
+  "orientation_3.png": {
+    "size": 127,
+    "sha256": "4c468fb9ac43338b64c84d013178f3bd86f195bba7b627598c64e40c155c94a4"
+  },
+  "orientation_4.png": {
+    "size": 127,
+    "sha256": "8fa8afdc786d3d9ff2edaf97081c295294e42011f9ddb2f63fe5c067cf540064"
+  },
+  "orientation_5.png": {
+    "size": 127,
+    "sha256": "26225fea45d80ce49f5518e3bfc733686101a2696feaf81d6ddb3b32fd638e11"
+  },
+  "orientation_6.png": {
+    "size": 127,
+    "sha256": "593df08ce0474b1bacce8f8c2066f1543bc2ab7fb46734d52649241a19923a69"
+  },
+  "orientation_7.png": {
+    "size": 127,
+    "sha256": "808d8fe3961c4d35e31b313112d9e1b21e55d7d542f12a825becc0c04f7718d1"
+  },
+  "orientation_8.png": {
+    "size": 127,
+    "sha256": "645715779b4e791e13b6167e0cb8bebcae271e58f4447b709aab5e79aa147943"
+  },
+  "orientation_base.jpg": {
+    "size": 744,
+    "sha256": "d81cb020ce779f10a60fc12700ce0a0d2a28a315c23b8522fd26a51d10273c23"
+  },
+  "raw64.raw": {
+    "size": 16384,
+    "sha256": "d1255e1f0b8f0c519ba725db265726966690140405696b8a6f645cd4ffd7e1be"
+  },
+  "rgb_2x3.bmp": {
+    "size": 78,
+    "sha256": "29681fac840290a63b419073704fac1d9f8f57d8ae0b95f0fe37f064856dd23d"
+  },
+  "rgba_2x3.png": {
+    "size": 89,
+    "sha256": "e8615c79824a3053bdcddeb29d86c8bea633543f2bc6540aead3049a123cae26"
+  },
+  "solid.jpg": {
+    "size": 632,
+    "sha256": "678acc98367768573e66f3325ef16c0a74ad2d6360b7f15c6384159fe2666170"
+  },
+  "stored_2x3.png": {
+    "size": 95,
+    "sha256": "93521433c348280fa399495dfb24f6db60917ab5da6a7e6e560a9165f33b53b9"
+  },
+  "trailing_zlib.png": {
+    "size": 90,
+    "sha256": "f60483eddc292ffcc20bfb66e4dcd5e8456ae523773cd4359b55141878a943b7"
+  },
+  "unknown_critical.png": {
+    "size": 101,
+    "sha256": "d0380dabfe31d7c28b4f65159159096a879265c1142028a5c66d9b98aacaa146"
+  }
+}

@@ -1,0 +1,109 @@
+# Distribution / Release binaries
+dist/
+
+# Visual Studio / Windows build outputs
+.vs/
+windows/VCamdroid/
+windows/x64/
+windows/Debug/
+windows/Release/
+windows/*.log
+windows/error.txt
+windows/*.user
+windows/*.suo
+windows/*.VC.db
+windows/*.opendb
+windows/*.dll
+windows/src/*.dll
+windows/src/**/*.dll
+windows/src/**/*.exe
+windows/src/**/*.lib
+windows/src/**/*.exp
+windows/src/**/*.obj
+windows/3rdparty/softcam/x64/
+windows/3rdparty/softcam/Debug/
+windows/3rdparty/softcam/Release/
+windows/3rdparty/softcam/.vs/
+
+# Android build outputs & caches
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/*.iml
+android/app/*.iml
+android/local.properties
+.gradle/
+build/
+*.apk
+*.aab
+
+# OS generated files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Logs and Archives
+*.log
+*.zip
+*.tar.gz
+# Source-share hygiene (Gradle wrapper JAR and source assets are retained)
+node_modules/
+.cache/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.clangd
+scratch/
+ProjectGPTExport.md
+*.obj
+*.o
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.tlog
+*.aps
+*.exe
+*.dll
+*.lib
+*.exp
+*.user
+*.suo
+*.tmp
+*.bak
+*.zip
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+credentials.json
+settings.cfg
+local.properties
+
+# PrismForge isolated outputs
+windows/PrismForgeStudio/
+PrismForgeStudio/
+.build-tmp/
+android/.kotlin/
+
+# Verified launch pack archives are source delivery assets.
+!deliveries/launch-packs-20261009/archives/*.zip
+!deliveries/launch-packs-20261009/update-demo/archives/*.zip
+
+!deliveries/pack-gallery-20261009/site/assets/archives/*.zip
+!deliveries/pack-gallery-20261009/site/assets/archives/updates/*.zip
+
+# Local camera lab process state never belongs in source packages.
+experiments/jeeliz-3d-lab/.runtime/
+
+# Public V1 starter colour archives
+!assets/starter-packs/**/*.zip

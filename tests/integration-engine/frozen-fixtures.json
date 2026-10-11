@@ -1,0 +1,17 @@
+[
+  {
+    "origin": "tests/desktoplooks/desktop_looks_tests.cpp",
+    "destination": "tests\\integration-engine\\desktop_looks_tests.cpp",
+    "sha256": "EDCAADE8A61CC3FC728F760ECD35428E9C5E033511585BEB905E2D7914F3D327"
+  },
+  {
+    "origin": "tests/gpurelighting/combined_fallback_tests.cpp",
+    "destination": "tests\\integration-engine\\combined_fallback_tests.cpp",
+    "sha256": "0B8042C26827717DEA5E89E40EF398ADCFADA5B6A78DBFD8481A77505ABBF2E2"
+  },
+  {
+    "origin": "tests/studiostack/conformance_tests.cpp",
+    "destination": "tests\\integration-engine\\conformance_tests.cpp",
+    "sha256": "4ABB038173891B9B9B5DC5017183A443865DC4AEB14D3351F623068D0F14CF9F"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "revision": "native-repaired-20261009",
+  "frozenOriginalDirectory": "../original-3d-filters-20261009",
+  "payloads": [
+    {
+      "path": "aurora-fox-mask.blend",
+      "bytes": 751348,
+      "sha256": "82791766625d09e025e99cf3e2bb874af5113266c75e9c28f83b81dbeb0d0b9a"
+    },
+    {
+      "path": "aurora-fox-mask.glb",
+      "bytes": 706768,
+      "sha256": "493f1e2960ec7ddd83c5326c21e4a9f653bbb0db2ccdc04f837e7e2c690801c3"
+    },
+    {
+      "path": "build_textures.py",
+      "bytes": 295,
+      "sha256": "7f44f89c714f8a847787e8ec1f84637d14848a4890835281ef5ac37358e99266"
+    },
+    {
+      "path": "generate_aurora_fox.py",
+      "bytes": 12428,
+      "sha256": "e3c9089b4ac47f1b644036f209c494c83da86f915512b03f54eb80fa4b27decc"
+    },
+    {
+      "path": "generate_nocturne_owl.py",
+      "bytes": 12212,
+      "sha256": "75b70990b089521ccb5ba3aefd3b2ee7046137f16cf961e47c9495573d2e1b17"
+    },
+    {
+      "path": "generate_textures.py",
+      "bytes": 14083,
+      "sha256": "ffd971b33a1eb932f74431bb5208f1277bd63ee843e0597e2cc2b5ecd1b58739"
+    },
+    {
+      "path": "nocturne-owl-mask.blend",
+      "bytes": 732878,
+      "sha256": "7b9c43852200539042ee66ed097c834d492e54d6b6733ec2a1eb2a74e0a09ff7"
+    },
+    {
+      "path": "nocturne-owl-mask.glb",
+      "bytes": 1204636,
+      "sha256": "d9438c6679eb76c3bf382101db489140125cf8096592c7eebcaa97a8a6bb51a7"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1099,
+      "sha256": "1cb17410117d972019622cac3badec4888031052335ebe27698096d1ed340b95"
+    },
+    {
+      "path": "render_front.py",
+      "bytes": 3927,
+      "sha256": "49d8102049e87ed6815351eea498be2dd59764648e16212691130334c8a36db6"
+    },
+    {
+      "path": "textures/aurora_fox_albedo.png",
+      "bytes": 176290,
+      "sha256": "03b1673c4fe41924a17b49bf428ceee50871b9303941a9dcc86494f5366b1ddf"
+    },
+    {
+      "path": "textures/aurora_fox_roughness_metal.png",
+      "bytes": 26704,
+      "sha256": "54e2e2bf2037d0b7d7429f824876c79e470acee6bb701faf4564e4a57c9c07fe"
+    },
+    {
+      "path": "textures/nocturne_owl_albedo.png",
+      "bytes": 699821,
+      "sha256": "ffb08de1e385d097aeabc45d662396fb7171d9e44016fa4abdd7a2b1d6988acf"
+    },
+    {
+      "path": "textures/nocturne_owl_roughness_metal.png",
+      "bytes": 23697,
+      "sha256": "3fffbc67607826e2def9e579f30b06ff40e946d30da2f32c5ce73380528d158c"
+    }
+  ]
+}

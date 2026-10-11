@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "collection": "PrismForge Original 3D Face Filters 2026-10-09",
+  "version": "1.0.0",
+  "authoring_system": {
+    "coordinate_system": "glTF 2.0 (+Y Up, +Z Toward Viewer, +X Right)",
+    "units": "meters",
+    "reference_head": {
+      "temple_width_m": 0.160,
+      "interpupillary_distance_m": 0.064,
+      "origin": "nose bridge (0.0, 0.0, 0.0)"
+    }
+  },
+  "profiles": {
+    "aurora-fox-mask": {
+      "id": "aurora-fox-mask",
+      "name": "Aurora fox mask",
+      "file": "models/aurora-fox-mask.glb",
+      "authoring_origin": "Nose bridge at (0.0, 0.0, 0.0)",
+      "bounding_box": {
+        "min": [-0.1036, -0.0402, -0.0409],
+        "max": [0.1036, 0.1887, 0.0513],
+        "size": {
+          "width_m": 0.2071,
+          "height_m": 0.2289,
+          "depth_m": 0.0922
+        },
+        "center": [0.0, 0.0742, 0.0052]
+      },
+      "lab_normalization": {
+        "normalize_factor": 9.657,
+        "formula": "2.0 / size.x"
+      },
+      "starting_fit": {
+        "scale": 0.62,
+        "x": 0.0,
+        "y": 0.28,
+        "z": 0.42,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "calibration": {
+        "anchor_feature": "Nose bridge & almond eye cutouts (interpupillary distance 64mm)",
+        "ear_anchors": "Cranial sides at X = +-0.065m, rising to Z = +0.185m",
+        "notes": "Compensates for high ears pulling bounding-box center upward, seating eye openings directly over wearer's eyes with solid cheek fit."
+      }
+    },
+    "nocturne-owl-mask": {
+      "id": "nocturne-owl-mask",
+      "name": "Nocturne owl mask",
+      "file": "models/nocturne-owl-mask.glb",
+      "authoring_origin": "Nose bridge at (0.0, 0.0, 0.0)",
+      "bounding_box": {
+        "min": [-0.1287, -0.0697, -0.0389],
+        "max": [0.1287, 0.1663, 0.0495],
+        "size": {
+          "width_m": 0.2573,
+          "height_m": 0.2360,
+          "depth_m": 0.0884
+        },
+        "center": [0.0, 0.0483, 0.0053]
+      },
+      "lab_normalization": {
+        "normalize_factor": 7.7725,
+        "formula": "2.0 / size.x"
+      },
+      "starting_fit": {
+        "scale": 0.64,
+        "x": 0.0,
+        "y": 0.20,
+        "z": 0.44,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "calibration": {
+        "anchor_feature": "Facial disc centers at X = +-0.038m and hooked beak at center line",
+        "plumicorn_tufts": "Sweeping ear tufts extending to Z = +0.160m",
+        "notes": "Beak curves downward past philtrum without blocking vision; twin facial discs align concentric feather plates around eyes."
+      }
+    },
+    "atlas-explorer-helmet": {
+      "id": "atlas-explorer-helmet",
+      "name": "Atlas explorer helmet",
+      "file": "models/atlas-explorer-helmet.glb",
+      "authoring_origin": "Nose bridge at (0.0, 0.0, 0.0)",
+      "bounding_box": {
+        "min": [-0.1461, -0.1316, -0.1855],
+        "max": [0.1461, 0.1486, 0.0827],
+        "size": {
+          "width_m": 0.2922,
+          "height_m": 0.2803,
+          "depth_m": 0.2682
+        },
+        "center": [0.0, 0.0085, -0.0514]
+      },
+      "lab_normalization": {
+        "normalize_factor": 6.8449,
+        "formula": "2.0 / size.x"
+      },
+      "starting_fit": {
+        "scale": 0.68,
+        "x": 0.0,
+        "y": 0.02,
+        "z": 0.32,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "calibration": {
+        "anchor_feature": "Panoramic bubble visor center and neck ring collar flange",
+        "volume_preservation": "Full spherical crown and rear occiput preserved at 35-degree downward tilt",
+        "notes": "Encloses complete cranium with transparent visor allowing face visibility; side comms pods seat over ears."
+      }
+    }
+  }
+}

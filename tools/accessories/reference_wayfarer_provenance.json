@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "referenceRoot": "D:/glasses-tryon-v2",
+  "source": "User-provided local glasses-tryon-v2; actual default wired Classic Wayfarer GlassesModel",
+  "exportScript": {
+    "path": "tools/accessories/export_reference_glasses.mjs",
+    "sha256": "74e57f930f64859aa211f40f04543f4eb0a87aa532e84a7dc9b8b3b3efe93a8f"
+  },
+  "options": {
+    "id": "wayfarer",
+    "styleId": "wayfarer",
+    "material": "glossy_acetate",
+    "frameColor": "#18191c",
+    "templeColor": "#18191c",
+    "lensTint": "#1c2630",
+    "lensOpacity": 0.85
+  },
+  "frameScaleCentimeters": 14,
+  "actualLensOpacity": 0.8,
+  "vertices": 2833,
+  "triangles": 4710,
+  "envelope": {
+    "min": [
+      -0.5129773616790771,
+      -0.27297791838645935,
+      -0.8574517369270325
+    ],
+    "max": [
+      0.5129773616790771,
+      0.0729779303073883,
+      0.029364628717303276
+    ]
+  },
+  "components": [
+    {
+      "name": "Rim",
+      "material": "Frame",
+      "firstVertex": 0,
+      "vertexCount": 873,
+      "firstTriangle": 0,
+      "triangleCount": 1536,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Lens",
+      "material": "Lens",
+      "firstVertex": 873,
+      "vertexCount": 65,
+      "firstTriangle": 1536,
+      "triangleCount": 63,
+      "materialProperties": {
+        "color": "#1c2630",
+        "opacity": 0.8,
+        "roughness": 0.08,
+        "metalness": 0,
+        "clearcoat": 1,
+        "transparent": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "name": "Hinge",
+      "material": "Frame",
+      "firstVertex": 938,
+      "vertexCount": 24,
+      "firstTriangle": 1599,
+      "triangleCount": 12,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Temple",
+      "material": "Frame",
+      "firstVertex": 962,
+      "vertexCount": 225,
+      "firstTriangle": 1611,
+      "triangleCount": 384,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "NosePad",
+      "material": "NosePad",
+      "firstVertex": 1187,
+      "vertexCount": 117,
+      "firstTriangle": 1995,
+      "triangleCount": 168,
+      "materialProperties": {
+        "color": "#e4d4c4",
+        "opacity": 0.55,
+        "roughness": 0.4,
+        "metalness": 0,
+        "clearcoat": 0,
+        "transparent": true,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Rim",
+      "material": "Frame",
+      "firstVertex": 1304,
+      "vertexCount": 873,
+      "firstTriangle": 2163,
+      "triangleCount": 1536,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Lens",
+      "material": "Lens",
+      "firstVertex": 2177,
+      "vertexCount": 65,
+      "firstTriangle": 3699,
+      "triangleCount": 63,
+      "materialProperties": {
+        "color": "#1c2630",
+        "opacity": 0.8,
+        "roughness": 0.08,
+        "metalness": 0,
+        "clearcoat": 1,
+        "transparent": true,
+        "depthWrite": false
+      }
+    },
+    {
+      "name": "Hinge",
+      "material": "Frame",
+      "firstVertex": 2242,
+      "vertexCount": 24,
+      "firstTriangle": 3762,
+      "triangleCount": 12,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Temple",
+      "material": "Frame",
+      "firstVertex": 2266,
+      "vertexCount": 225,
+      "firstTriangle": 3774,
+      "triangleCount": 384,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "NosePad",
+      "material": "NosePad",
+      "firstVertex": 2491,
+      "vertexCount": 117,
+      "firstTriangle": 4158,
+      "triangleCount": 168,
+      "materialProperties": {
+        "color": "#e4d4c4",
+        "opacity": 0.55,
+        "roughness": 0.4,
+        "metalness": 0,
+        "clearcoat": 0,
+        "transparent": true,
+        "depthWrite": true
+      }
+    },
+    {
+      "name": "Bridge",
+      "material": "Frame",
+      "firstVertex": 2608,
+      "vertexCount": 225,
+      "firstTriangle": 4326,
+      "triangleCount": 384,
+      "materialProperties": {
+        "color": "#18191c",
+        "opacity": 1,
+        "roughness": 0.24,
+        "metalness": 0.05,
+        "clearcoat": 1,
+        "transparent": false,
+        "depthWrite": true
+      }
+    }
+  ],
+  "normalRepairs": [
+    {
+      "component": "Lens",
+      "componentOrdinal": 1,
+      "vertex": 0,
+      "copiedNormalFromCoincidentVertex": 64
+    },
+    {
+      "component": "Lens",
+      "componentOrdinal": 6,
+      "vertex": 0,
+      "copiedNormalFromCoincidentVertex": 64
+    }
+  ],
+  "sources": [
+    {
+      "path": "src/glasses/glasses-model.js",
+      "sha256": "7df188d1860bedafa91a42a521f17938cf727a620f77ab66a290eb3c3d0ff9e2"
+    },
+    {
+      "path": "src/glasses/pose-estimator.js",
+      "sha256": "a205cae5a1f0d59fc35f2191dbacf07ef8409555f3a44aaec3365b35d3d9b7df"
+    },
+    {
+      "path": "src/processing/storage.js",
+      "sha256": "79ce5ce16c95075c86ada3adfb12f1b6b87fa0912add9ffa79b5e990d3a5bcaf"
+    },
+    {
+      "path": "src/rendering/scene-manager.js",
+      "sha256": "5c50567b38b1aacd1e494c86b0cc9600dce3ca792f0f8b439397eb29abd97976"
+    },
+    {
+      "path": "src/app.js",
+      "sha256": "ac65b1f30ccd2ef6eae6b11887f883e2e1883d549a88dcb281bce0adbcb60786"
+    },
+    {
+      "path": "package.json",
+      "sha256": "53cabd6502fa37b6d28fda104251bac348e0187170bbcb9b62bca9471a6170bb"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "16cd077c64491534568ec8cd7cbf6bc547ea06f3ff9efcc48d755c4910de2136"
+    },
+    {
+      "path": "node_modules/three/package.json",
+      "sha256": "f9c474a27c920b9435353a6235968f4453436bee0444fac7e5fd289c8fa463de"
+    },
+    {
+      "path": "node_modules/three/build/three.module.js",
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "node_modules/three/build/three.core.js",
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    }
+  ],
+  "output": {
+    "path": "windows/src/effects/overlays/reference_wayfarer_mesh.inc",
+    "sha256": "37a9ad559d456c4a8972e85745997ee213eba07bc312d2b67b53c63c5ca66a80"
+  },
+  "scope": "Geometry is exact. Native lighting/material implementation is separate from the original Three.js MeshPhysicalMaterial renderer."
+}

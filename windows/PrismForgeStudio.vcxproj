@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6d004760-224e-4179-9723-eef731588902}</ProjectGuid>
+    <RootNamespace>PrismForgeStudio</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v145</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PublicIncludeDirectories>$(ProjectDir)include;$(PublicIncludeDirectories)</PublicIncludeDirectories>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>NOMINMAX;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>NOMINMAX;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)..;$(SolutionDir)3rdparty\softcam\dist\include;$(ProjectDir)include;$(ProjectDir)res;$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)3rdparty\softcam\dist\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>prismforge_cam_d.lib;d3d11.lib;d3dcompiler.lib;dxgi.lib;psapi.lib;mfplat.lib;mf.lib;mfuuid.lib;mfsensorgroup.lib;ole32.lib;advapi32.lib;shell32.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(ProjectDir)adb" "$(OutDir)adb\" /y /f</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>NOMINMAX;NDEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;_WIN32_WINNT=0x0A00;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)..;$(ProjectDir)include;$(SolutionDir)3rdparty\softcam\dist\include;$(ProjectDir)res;$(ProjectDir)src;$(SolutionDir)3rdparty\softcam\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)3rdparty\softcam\dist\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>prismforge_cam.lib;d3d11.lib;d3dcompiler.lib;dxgi.lib;psapi.lib;mfplat.lib;mf.lib;mfuuid.lib;mfsensorgroup.lib;ole32.lib;advapi32.lib;shell32.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutDir)$(TargetFileName)" "$(StudioDeployDir)\" /y /f
+xcopy "$(OutDir)*.dll" "$(StudioDeployDir)\" /y /c /d
+xcopy "$(ProjectDir)res" "$(StudioDeployDir)\res\" /y /c /d
+xcopy "$(ProjectDir)adb" "$(StudioDeployDir)\adb\" /y /c /d
+xcopy "$(ProjectDir)adb" "$(OutDir)adb\" /y /c /d
+xcopy "$(ProjectDir)3rdparty\softcam\dist\bin\x64\prismforge_cam.dll" "$(StudioDeployDir)\" /y /c /d
+xcopy "$(ProjectDir)3rdparty\softcam\examples\softcam_installer\x64\Release\prismforge_cam_installer.exe" "$(StudioDeployDir)\" /y /c /d
+exit /b 0
+</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\capture\systemcamera.cpp" />
+    <ClCompile Include="src\capture\sample_converter.cpp" />
+    <ClCompile Include="src\capture\mf_capture.cpp" />
+    <ClCompile Include="src\capture\dshow_capture.cpp" />
+    <ClCompile Include="src\effects\framepipeline.cpp" />
+    <ClCompile Include="src\effects\cubelut.cpp" />
+    <ClCompile Include="src\effects\desktopcolorpipeline.cpp" />
+    <ClCompile Include="src\effects\analysisbridge\analysis_mailbox.cpp" />
+    <ClCompile Include="src\effects\analysisbridge\mask_preparer.cpp" />
+    <ClCompile Include="src\effects\appearance\appearanceprocessor.cpp" />
+    <ClCompile Include="src\effects\appearance\gpu\d3d11_appearanceprocessor.cpp" />
+    <ClCompile Include="src\effects\lighting\gpu\d3d11_studiolighting.cpp" />
+    <ClCompile Include="src\effects\lighting\studiolighting.cpp" />
+    <ClCompile Include="src\effects\overlays\overlay_renderer.cpp" />
+    <ClCompile Include="src\effects\overlays\accessory_mesh.cpp" />
+    <ClCompile Include="src\effects\overlays\face_accessory_3d.cpp" />
+    <ClCompile Include="src\effects\overlays\face_filter_asset.cpp" />
+    <ClCompile Include="src\effects\overlays\local_face_filter_import.cpp" />
+    <ClCompile Include="src\effects\studiostack\gpu\d3d11_face_accessories.cpp" />
+    <ClCompile Include="src\effects\overlays\procedural_assets.cpp" />
+    <ClCompile Include="src\effects\packs\pack_manager.cpp" />
+    <ClCompile Include="src\effects\packs\pack_preview_decoder.cpp" />
+    <ClCompile Include="src\gui\packlibrarydialog.cpp" />
+    <ClInclude Include="src\gui\packlibrarydialog.h" />
+    <ClInclude Include="src\effects\packs\pack_preview_decoder.h" />
+    <ClInclude Include="src\effects\packs\pack_transaction_store.h" />
+    <ClCompile Include="src\effects\packs\pack_manifest.cpp" />
+    <ClCompile Include="src\effects\packs\pack_validator.cpp" />
+    <ClCompile Include="src\effects\packs\sha256.cpp" />
+    <ClCompile Include="src\effects\presets\studio_preset.cpp" />
+    <ClCompile Include="src\effects\studiostack\gpu\d3d11_studiostack_background.cpp" />
+    <ClCompile Include="src\effects\studiostack\gpu\d3d11_studiostack_lut.cpp" />
+    <ClCompile Include="src\effects\studiostack\gpu\d3d11_studiostack_overlay.cpp" />
+    <ClCompile Include="src\effects\studiostack\studio_stack.cpp" />
+    <ClCompile Include="src\effects\backgroundcompositor.cpp" />
+    <ClCompile Include="src\effects\maskstabilizer.cpp" />
+    <ClCompile Include="src\effects\gpu\d3d11_context.cpp" />
+    <ClCompile Include="src\effects\desktopstudiopipeline.cpp" />
+    <ClCompile Include="src\application.cpp" />
+    <ClCompile Include="src\directshowsource.cpp" />
+    <ClCompile Include="src\gui\devicesview.cpp" />
+    <ClCompile Include="src\gui\imgadjdlg.cpp" />
+    <ClCompile Include="src\gui\qrcodegen.cpp" />
+    <ClCompile Include="src\gui\qrconview.cpp" />
+    <ClCompile Include="src\gui\streamconfigdlg.cpp" />
+    <ClCompile Include="src\net\connection.cpp" />
+    <ClCompile Include="src\net\serializer.cpp" />
+    <ClCompile Include="src\rtsp\manager.cpp" />
+    <ClCompile Include="src\canvas.cpp" />
+    <ClCompile Include="src\main.cpp">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClCompile Include="src\net\server.cpp" />
+    <ClCompile Include="src\gui\window.cpp" />
+    <ClCompile Include="src\gui\lightpositionpad.cpp" />
+    <ClInclude Include="src\gui\lightpositionpad.h" />
+    <ClCompile Include="src\settings.cpp" />
+    <ClCompile Include="src\snapshotmanager.cpp" />
+    <ClCompile Include="src\video\directshowscaler.cpp" />
+    <ClCompile Include="src\video\framescaler.cpp" />
+    <ClCompile Include="src\video\guipreviewscaler.cpp" />
+    <ClCompile Include="src\video\1_1scaler.cpp" />
+    <ClCompile Include="src\mfsource\MFSharedMemWriter.cpp" />
+    <ClCompile Include="src\mfsource\VCamDeviceManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\adb.h" />
+    <ClInclude Include="include\application.h" />
+    <ClInclude Include="include\directshowsource.h" />
+    <ClInclude Include="include\gui\devicesview.h" />
+    <ClInclude Include="include\gui\imgadjdlg.h" />
+    <ClInclude Include="include\gui\qrconview.h" />
+    <ClInclude Include="include\net\connection.h" />
+    <ClInclude Include="include\net\devicedescriptor.h" />
+    <ClInclude Include="include\net\serializer.h" />
+    <ClInclude Include="include\rtsp\constants.h" />
+    <ClInclude Include="include\rtsp\ffmpeg.h" />
+    <ClInclude Include="include\rtsp\ffmpeginterrupt.h" />
+    <ClInclude Include="include\rtsp\receiver.h" />
+    <ClInclude Include="include\rtsp\manager.h" />
+    <ClInclude Include="include\canvas.h" />
+    <ClInclude Include="include\logger.h" />
+    <ClInclude Include="include\net\server.h" />
+    <ClInclude Include="include\gui\window.h" />
+    <ClInclude Include="include\rtsp\streamoptions.h" />
+    <ClInclude Include="include\video\directshowscaler.h" />
+    <ClInclude Include="include\video\filter.h" />
+    <ClInclude Include="include\video\framescaler.h" />
+    <ClInclude Include="include\video\guipreviewscaler.h" />
+    <ClInclude Include="include\gui\streamconfigdlg.h" />
+    <ClInclude Include="src\adb.h" />
+    <ClInclude Include="src\apppaths.h" />
+    <ClInclude Include="src\net\usbbridge.h" />
+    <ClInclude Include="src\effects\framepipeline.h" />
+    <ClInclude Include="src\effects\cubelut.h" />
+    <ClInclude Include="src\effects\desktopcolorpipeline.h" />
+    <ClInclude Include="src\effects\analysisbridge\analysis_mailbox.h" />
+    <ClInclude Include="src\effects\analysisbridge\analysis_types.h" />
+    <ClInclude Include="src\effects\analysisbridge\mask_preparer.h" />
+    <ClInclude Include="src\effects\appearance\appearanceprocessor.h" />
+    <ClInclude Include="src\effects\appearance\gpu\d3d11_appearanceprocessor.h" />
+    <ClInclude Include="src\effects\lighting\gpu\d3d11_studiolighting.h" />
+    <ClInclude Include="src\effects\lighting\studiolighting.h" />
+    <ClInclude Include="src\effects\overlays\overlay_renderer.h" />
+    <ClInclude Include="src\effects\overlays\accessory_mesh.h" />
+    <ClInclude Include="src\effects\overlays\reference_wayfarer_mesh.inc" />
+    <ClInclude Include="src\effects\overlays\reference_caps_mesh.inc" />
+    <ClInclude Include="src\effects\overlays\reference_glasses_collection_mesh.inc" />
+    <ClInclude Include="src\effects\overlays\face_accessory_3d.h" />
+    <ClInclude Include="src\effects\overlays\face_filter_asset.h" />
+    <ClInclude Include="src\effects\overlays\local_face_filter_import.h" />
+    <ClInclude Include="src\effects\studiostack\gpu\d3d11_face_accessories.h" />
+    <ClInclude Include="src\effects\overlays\overlay_types.h" />
+    <ClInclude Include="src\effects\overlays\overlay_validation.h" />
+    <ClInclude Include="src\effects\overlays\procedural_assets.h" />
+    <ClInclude Include="src\effects\overlays\tracking_evaluator.h" />
+    <ClInclude Include="src\effects\packs\pack_manager.h" />
+    <ClInclude Include="src\effects\packs\pack_manifest.h" />
+    <ClInclude Include="src\effects\packs\pack_validator.h" />
+    <ClInclude Include="src\effects\packs\sha256.h" />
+    <ClInclude Include="src\effects\presets\studio_preset.h" />
+    <ClInclude Include="src\effects\studiostack\gpu\d3d11_studiostack_background.h" />
+    <ClInclude Include="src\effects\studiostack\gpu\d3d11_studiostack_lut.h" />
+    <ClInclude Include="src\effects\studiostack\gpu\d3d11_studiostack_overlay.h" />
+    <ClInclude Include="src\effects\studiostack\studio_stack.h" />
+    <ClInclude Include="src\effects\backgroundcompositor.h" />
+    <ClInclude Include="src\effects\maskstabilizer.h" />
+    <ClInclude Include="src\effects\gpu\d3d11_context.h" />
+    <ClInclude Include="src\effects\desktopstudiopipeline.h" />
+    <ClInclude Include="src\ffmpeg.h" />
+    <ClInclude Include="src\gui\lookpresets.h" />
+    <ClInclude Include="src\capture\inputsession.h" />
+    <ClInclude Include="src\video\latestframedelivery.h" />
+    <ClInclude Include="src\capture\systemcamera.h" />
+    <ClInclude Include="src\capture\sample_converter.h" />
+    <ClInclude Include="src\capture\mf_capture.h" />
+    <ClInclude Include="src\capture\dshow_capture.h" />
+    <ClInclude Include="src\capture\mf_async_reader.h" />
+    <ClInclude Include="src\capture\mf_sample_lock.h" />
+    <ClInclude Include="src\application.h" />
+    <ClInclude Include="src\canvas.h" />
+    <ClInclude Include="src\directshowsource.h" />
+    <ClInclude Include="src\gui\devicesview.h" />
+    <ClInclude Include="src\gui\imgadjdlg.h" />
+    <ClInclude Include="src\gui\qrcodegen.hpp" />
+    <ClInclude Include="src\gui\qrconview.h" />
+    <ClInclude Include="src\gui\streamconfigdlg.h" />
+    <ClInclude Include="src\gui\window.h" />
+    <ClInclude Include="src\gui\appicons.h" />
+    <ClInclude Include="src\logger.h" />
+    <ClInclude Include="src\net\connection.h" />
+    <ClInclude Include="src\net\devicedescriptor.h" />
+    <ClInclude Include="src\net\serializer.h" />
+    <ClInclude Include="src\net\server.h" />
+    <ClInclude Include="src\rtsp\constants.h" />
+    <ClInclude Include="src\rtsp\ffmpeg.h" />
+    <ClInclude Include="src\rtsp\ffmpeginterrupt.h" />
+    <ClInclude Include="src\rtsp\manager.h" />
+    <ClInclude Include="src\rtsp\receiver.h" />
+    <ClInclude Include="src\rtsp\streamoptions.h" />
+    <ClInclude Include="src\settings.h" />
+    <ClInclude Include="src\snapshotmanager.h" />
+    <ClInclude Include="src\video\directshowscaler.h" />
+    <ClInclude Include="src\video\filter.h" />
+    <ClInclude Include="src\video\framescaler.h" />
+    <ClInclude Include="src\video\guipreviewscaler.h" />
+    <ClInclude Include="src\video\1_1scaler.h" />
+    <ClInclude Include="src\mfsource\MFSharedMemWriter.h" />
+    <ClInclude Include="src\mfsource\SharedFrameTransport.h" />
+    <ClInclude Include="src\mfsource\FrameServer.h" />
+    <ClInclude Include="src\mfsource\VCamDeviceManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\rtsp\receiver.cpp" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <StudioDeployDir Condition="'$(StudioDeployDir)'==''">$(ProjectDir)..\dist</StudioDeployDir>
+    <VcpkgAutoLink>false</VcpkgAutoLink>
+    <StudioWxSuffix>u</StudioWxSuffix>
+    <StudioWxSuffix Condition="'$(Configuration)'=='Debug'">ud</StudioWxSuffix>
+    <StudioWxSetup>mswu</StudioWxSetup>
+    <StudioWxSetup Condition="'$(Configuration)'=='Debug'">mswud</StudioWxSetup>
+    <StudioWxRoot Condition="'$(StudioWxRoot)'==''">$(ProjectDir)..\build\deps</StudioWxRoot>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Platform)'=='x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\build\provider-deps\ort-sdk\include;$(ProjectDir)..;$(StudioWxRoot)\wx-src\include;$(StudioWxRoot)\wx-build\lib\vc_x64_dll\$(StudioWxSetup);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>NOMINMAX;WXUSINGDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>$(StudioWxRoot)\wx-build\lib\vc_x64_dll\wxbase33$(StudioWxSuffix).lib;$(StudioWxRoot)\wx-build\lib\vc_x64_dll\wxmsw33$(StudioWxSuffix)_core.lib;avcodec.lib;avformat.lib;avutil.lib;swscale.lib;mfreadwrite.lib;strmiids.lib;oleaut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(StudioWxRoot)\wx-build\lib\vc_x64_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Target Name="CopyStudioWxRuntime" AfterTargets="Build" Condition="'$(Platform)'=='x64'">
+    <ItemGroup><StudioWxRuntime Include="$(StudioWxRoot)\wx-build\lib\vc_x64_dll\*333u_*.dll" Condition="'$(Configuration)'=='Release'" /><StudioWxRuntime Include="$(StudioWxRoot)\wx-build\lib\vc_x64_dll\*333ud_*.dll" Condition="'$(Configuration)'=='Debug'" /></ItemGroup>
+    <Copy SourceFiles="@(StudioWxRuntime)" DestinationFolder="$(OutDir)" />
+    <Copy SourceFiles="@(StudioWxRuntime)" DestinationFolder="$(StudioDeployDir)" Condition="'$(Configuration)'=='Release'" />
+  </Target>
+  <Target Name="CopyReferenceCapAssets" AfterTargets="Build" Condition="'$(Platform)'=='x64'">
+    <ItemGroup>
+      <ReferenceCapAssets Include="$(ProjectDir)res\accessories\pokemon_masters_cap.pfrgba;$(ProjectDir)res\accessories\NOTICE.txt" />
+    </ItemGroup>
+    <Copy SourceFiles="@(ReferenceCapAssets)" DestinationFolder="$(OutDir)res\accessories" />
+    <Copy SourceFiles="@(ReferenceCapAssets)" DestinationFolder="$(StudioDeployDir)\res\accessories" Condition="'$(Configuration)'=='Release'" />
+  </Target>
+  <Target Name="CopyLocalFilterParserNotices" AfterTargets="Build" Condition="'$(Platform)'=='x64'">
+    <ItemGroup><LocalFilterParserNotices Include="$(ProjectDir)3rdparty\cgltf\LICENSE;$(ProjectDir)3rdparty\cgltf\NOTICE.txt" /></ItemGroup>
+    <Copy SourceFiles="@(LocalFilterParserNotices)" DestinationFolder="$(OutDir)licenses\cgltf" />
+    <Copy SourceFiles="@(LocalFilterParserNotices)" DestinationFolder="$(StudioDeployDir)\licenses\cgltf" Condition="'$(Configuration)'=='Release'" />
+  </Target>
+  <Target Name="CopyNativeFaceFilters" AfterTargets="Build" Condition="'$(Platform)'=='x64'">
+    <ItemGroup>
+      <NativeFaceFilters Include="$(ProjectDir)res\face-filters\*.pfmodel;$(ProjectDir)res\face-filters\NOTICE.txt;$(ProjectDir)res\face-filters\manifest.json" />
+      <!-- Explicit private development input; no downloaded crown is included by default. -->
+      <NativeFaceFilters Include="$(PrivateNativeFaceFilter)" Condition="'$(PrivateNativeFaceFilter)'!='' and Exists('$(PrivateNativeFaceFilter)')" />
+    </ItemGroup>
+    <Copy SourceFiles="@(NativeFaceFilters)" DestinationFolder="$(OutDir)res\face-filters" />
+    <Copy SourceFiles="@(NativeFaceFilters)" DestinationFolder="$(StudioDeployDir)\res\face-filters" Condition="'$(Configuration)'=='Release'" />
+  </Target>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ItemGroup>
+    <ClCompile Include="src\effects\analysisbridge\gpu\d3d11_mask_preparer.cpp" />
+    <ClInclude Include="src\effects\analysisbridge\gpu\d3d11_mask_preparer.h" />
+    <ClCompile Include="src\effects\analysisbridge\gpu\d3d11_normal_preparer.cpp" />
+    <ClInclude Include="src\effects\analysisbridge\gpu\d3d11_normal_preparer.h" />
+    <ClCompile Include="src\effects\analysisbridge\normal_preparer.cpp" />
+    <ClInclude Include="src\effects\analysisbridge\normal_preparer.h" />
+    <ClCompile Include="src\effects\relighting\approximate_shadows.cpp" />
+    <ClInclude Include="src\effects\relighting\approximate_shadows.h" />
+    <ClCompile Include="src\effects\relighting\depth_to_normal.cpp" />
+    <ClInclude Include="src\effects\relighting\depth_to_normal.h" />
+    <ClInclude Include="src\effects\relighting\depth_types.h" />
+    <ClCompile Include="src\effects\relighting\gpu\d3d11_approximate_shadows.cpp" />
+    <ClInclude Include="src\effects\relighting\gpu\d3d11_approximate_shadows.h" />
+    <ClCompile Include="src\effects\relighting\gpu\d3d11_depth_to_normal.cpp" />
+    <ClInclude Include="src\effects\relighting\gpu\d3d11_depth_to_normal.h" />
+    <ClInclude Include="src\effects\relighting\shadow_depth_preparer.h" />
+    <ClCompile Include="src\effects\studiostack\gpu\d3d11_desktop_looks.cpp" />
+    <ClInclude Include="src\effects\studiostack\gpu\d3d11_desktop_looks.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\providers\analysis_worker.cpp" />
+    <ClInclude Include="src\providers\analysis_worker.h" />
+    <ClCompile Include="src\providers\frame_preprocessor.cpp" />
+    <ClInclude Include="src\providers\frame_preprocessor.h" />
+    <ClInclude Include="src\providers\frame_request.h" />
+    <ClInclude Include="src\providers\model_manifest.h" />
+    <ClCompile Include="src\providers\onnx_runner.cpp" />
+    <ClInclude Include="src\providers\onnx_runner.h" />
+    <ClCompile Include="src\providers\result_adapter.cpp" />
+    <ClInclude Include="src\providers\result_adapter.h" />
+    <ClCompile Include="src\providers\face_landmarker_runtime.cpp" />
+    <ClInclude Include="src\providers\face_landmarker_runtime.h" />
+    <ClCompile Include="src\providers\face_geometry.cpp" />
+    <ClInclude Include="src\providers\face_geometry.h" />
+    <ClCompile Include="src\providers\face_analysis_service.cpp" />
+    <ClInclude Include="src\providers\face_analysis_service.h" />
+    <ClInclude Include="src\providers\face_types.h" />
+    <ClCompile Include="src\providers\segmentation_service.cpp" />
+    <ClInclude Include="src\providers\segmentation_service.h" />
+  </ItemGroup>
+</Project>

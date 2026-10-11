@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="studio_diagnostics">Diagnostics</string>
+    <string name="studio_logs_stay_on_this_device_until_you_choose_to_share_check_for_pers">Logs stay on this device until you choose to share. Check for personal details before sharing.</string>
+    <string name="studio_share_diagnostics">Share diagnostics…</string>
+    <string name="studio_vcamdroid_studio">PrismForge Studio  /  STUDIO</string>
+    <string name="studio_theme">Theme</string>
+    <string name="studio_system_dark_or_light_appearance">System, dark, light or glass appearance</string>
+    <string name="studio_open_diagnostics">Open diagnostics</string>
+    <string name="studio_your_phone_your_best_camera">Your phone. Your best camera.</string>
+    <string name="studio_scan_the_code_in_vcamdroid_on_your_computer">Scan the code in PrismForge Studio on your computer.</string>
+    <string name="studio_pair_with_qr_code">PAIR WITH QR CODE</string>
+    <string name="studio_or_connect_another_way">Or connect another way</string>
+    <string name="studio_usb_cable">USB cable</string>
+    <string name="studio_connect_using_usb_debugging">Connect using USB debugging</string>
+    <string name="studio_enter_address">Enter address</string>
+    <string name="studio_enter_the_computer_s_local_ip_address">Enter the computer\'s local IP address</string>
+    <string name="studio_reconnect_to_last_computer">Reconnect to last computer</string>
+    <string name="studio_local_connection_keep_both_devices_on_the_same_network">Local connection. Keep both devices on the same network.</string>
+    <string name="studio_waiting_for_video">WAITING FOR VIDEO</string>
+    <string name="studio_select_this_phone_on_your_computer">Select this phone on your computer</string>
+    <string name="studio_connected">Connected</string>
+    <string name="studio_controls">Controls</string>
+    <string name="studio_camera_controls_and_streaming_help">Camera controls and streaming help</string>
+    <string name="studio_camera">Camera</string>
+    <string name="studio_torch">Torch</string>
+    <string name="studio_dim">Dim</string>
+    <string name="studio_stop">Stop</string>
+    <string name="studio_stop_streaming_and_return_to_connection_screen">Stop streaming and return to connection screen</string>
+    <string name="studio_screen_dimmed_streaming_continues_double_tap_to_restore_screen_br">Screen dimmed. Streaming continues. Double tap to restore screen brightness.</string>
+    <string name="studio_screen_dimmed">Screen dimmed</string>
+    <string name="studio_streaming_continues_tap_anywhere_to_return">Streaming continues. Tap anywhere to return.</string>
+    <string name="studio_enter_the_ip_address_shown_in_the_windows_app_connect_ip">Choose Connect phone in the Windows app, then enter its address below.</string>
+    <string name="studio_make_sure_your_phone_and_pc_are_connected_to_the_same_wi_fi_or_ne">Make sure your phone and PC are connected to the same Wi-Fi or network.</string>
+    <string name="studio_ip_address">IP Address</string>
+    <string name="studio_port">Port</string>
+    <string name="studio_control_port">7969</string>
+</resources>

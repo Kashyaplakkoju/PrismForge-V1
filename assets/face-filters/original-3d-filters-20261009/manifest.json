@@ -1,0 +1,416 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PrismForge Original 3D Face Filters Manifest",
+  "delivery": "original-3d-filters-20261009",
+  "author": "Antigravity IDE",
+  "date": "2026-10-09",
+  "spec_version": "glTF 2.0 Binary (GLB)",
+  "models": {
+    "aurora-fox-mask": {
+      "name": "Aurora fox mask",
+      "description": "Original sculpted kitsune / arctic fox ceramic mask with outward-flaring curved cheeks, shaped muzzle, black nose pad, clean almond eye cutouts, side-anchored ears with 3D inner fur tufts, vermilion lacquer ceremonial markings and gold leaf accents.",
+      "file": "models/aurora-fox-mask.glb",
+      "bytes": 709540,
+      "sha256": "5CC99787D917B53289DC0AF47D4285A7CC814139D622BD4862D33F69C1B57849",
+      "drawn_counts": {
+        "vertices": 11418,
+        "triangles": 22800,
+        "primitives": 1,
+        "nodes": 1,
+        "materials": 1,
+        "textures": 2,
+        "images": 2
+      },
+      "bounds": {
+        "min": [
+          -0.1036,
+          -0.0402,
+          -0.0409
+        ],
+        "max": [
+          0.1036,
+          0.1887,
+          0.0513
+        ],
+        "dimensions_m": [
+          0.2071,
+          0.2289,
+          0.0922
+        ]
+      },
+      "coordinate_axes": "glTF 2.0 (+X Right, +Y Up, +Z Forward)",
+      "textures": [
+        {
+          "name": "aurora_fox_albedo.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Base Color"
+        },
+        {
+          "name": "aurora_fox_roughness_metal.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Metallic-Roughness (G=Roughness, B=Metallic)"
+        }
+      ],
+      "starting_fit": {
+        "scale": 0.62,
+        "x": 0.0,
+        "y": 0.28,
+        "z": 0.42,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "normalization": {
+        "normalize_factor": 9.657,
+        "formula": "2.0 / size.x"
+      },
+      "provenance": "All-original procedural geometry and original textures authored by Antigravity IDE for PrismForgeStudio. No borrowed trademarks, copyrighted characters, or external scans.",
+      "licence": "Proprietary - PrismForge Studio internal asset collection."
+    },
+    "nocturne-owl-mask": {
+      "name": "Nocturne owl mask",
+      "description": "Original nocturnal raptor face mask featuring concentric layered feather discs radiating around modest eye openings, sweeping curved brow ridge with tall horned plumicorns (ear tufts), and a pronounced hooked beak distinctly separated from the eyes.",
+      "file": "models/nocturne-owl-mask.glb",
+      "bytes": 1126400,
+      "sha256": "7918C045AA8C65E94B30D70BEA191BFD201DA2E69935BD125238E96157AC5B2C",
+      "drawn_counts": {
+        "vertices": 10854,
+        "triangles": 21656,
+        "primitives": 1,
+        "nodes": 1,
+        "materials": 1,
+        "textures": 2,
+        "images": 2
+      },
+      "bounds": {
+        "min": [
+          -0.1287,
+          -0.0697,
+          -0.0389
+        ],
+        "max": [
+          0.1287,
+          0.1663,
+          0.0495
+        ],
+        "dimensions_m": [
+          0.2573,
+          0.236,
+          0.0884
+        ]
+      },
+      "coordinate_axes": "glTF 2.0 (+X Right, +Y Up, +Z Forward)",
+      "textures": [
+        {
+          "name": "nocturne_owl_albedo.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Base Color"
+        },
+        {
+          "name": "nocturne_owl_roughness_metal.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Metallic-Roughness (G=Roughness, B=Metallic)"
+        }
+      ],
+      "starting_fit": {
+        "scale": 0.64,
+        "x": 0.0,
+        "y": 0.2,
+        "z": 0.44,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "normalization": {
+        "normalize_factor": 7.7725,
+        "formula": "2.0 / size.x"
+      },
+      "provenance": "All-original procedural geometry and original textures authored by Antigravity IDE for PrismForgeStudio. No borrowed trademarks, copyrighted characters, or external scans.",
+      "licence": "Proprietary - PrismForge Studio internal asset collection."
+    },
+    "atlas-explorer-helmet": {
+      "name": "Atlas explorer helmet",
+      "description": "Original deep space EVA / planetary exploration helmet featuring a full rounded crown, solid occiput volume preserved at 35-degree downward tilt, panoramic bubble visor (glTF alphaMode: BLEND) framed by heavy opaque pressure gasket, lateral comms pods, cheek rebreather canisters, ribbed conduits, and docking neck ring.",
+      "file": "models/atlas-explorer-helmet.glb",
+      "bytes": 905200,
+      "sha256": "B1C19757AE096DD852D45DDFDE7F1468BBD7895E5E6E3E678928FAD4E453F926",
+      "drawn_counts": {
+        "vertices": 19279,
+        "triangles": 38328,
+        "primitives": 1,
+        "nodes": 2,
+        "materials": 2,
+        "textures": 2,
+        "images": 2
+      },
+      "bounds": {
+        "min": [
+          -0.1461,
+          -0.1316,
+          -0.1855
+        ],
+        "max": [
+          0.1461,
+          0.1486,
+          0.0827
+        ],
+        "dimensions_m": [
+          0.2922,
+          0.2803,
+          0.2682
+        ]
+      },
+      "coordinate_axes": "glTF 2.0 (+X Right, +Y Up, +Z Forward)",
+      "textures": [
+        {
+          "name": "atlas_helmet_albedo.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Base Color"
+        },
+        {
+          "name": "atlas_helmet_roughness_metal.png",
+          "resolution": "2048x2048",
+          "format": "PNG (RGBA)",
+          "role": "Metallic-Roughness (G=Roughness, B=Metallic)"
+        }
+      ],
+      "starting_fit": {
+        "scale": 0.68,
+        "x": 0.0,
+        "y": 0.02,
+        "z": 0.32,
+        "rx": 0.0,
+        "ry": 0.0,
+        "rz": 0.0,
+        "occlusion": true
+      },
+      "normalization": {
+        "normalize_factor": 6.8449,
+        "formula": "2.0 / size.x"
+      },
+      "provenance": "All-original procedural geometry and original textures authored by Antigravity IDE for PrismForgeStudio. No borrowed trademarks, copyrighted characters, or external scans.",
+      "licence": "Proprietary - PrismForge Studio internal asset collection."
+    }
+  },
+  "payloads": {
+    "fitting-profiles.json": {
+      "bytes": 3860,
+      "sha256": "5D8548887D756B1B8BF300DD1BCF2EC8CB9B3451A9DC535574326CD31A58FC89"
+    },
+    "README.md": {
+      "bytes": 7965,
+      "sha256": "DD14B941AA31CB17D94D998544F27508CBCCFECDB95F5F6ED198D9DFAFCB3081"
+    },
+    "models/atlas-explorer-helmet.glb": {
+      "bytes": 905200,
+      "sha256": "B1C19757AE096DD852D45DDFDE7F1468BBD7895E5E6E3E678928FAD4E453F926"
+    },
+    "models/aurora-fox-mask.glb": {
+      "bytes": 709540,
+      "sha256": "5CC99787D917B53289DC0AF47D4285A7CC814139D622BD4862D33F69C1B57849"
+    },
+    "models/nocturne-owl-mask.glb": {
+      "bytes": 1126400,
+      "sha256": "7918C045AA8C65E94B30D70BEA191BFD201DA2E69935BD125238E96157AC5B2C"
+    },
+    "oracle/3D_FILTER_AUTHORING.md": {
+      "bytes": 6964,
+      "sha256": "FF7383A2C86554DDBCBE26B9612C2DC6E794B112D1A94A8967C705AA057805C4"
+    },
+    "oracle/local-model.js": {
+      "bytes": 27056,
+      "sha256": "EA3C8AAA4149A36C3FA1AF810CE7DED9EA63130795C17BD0B2E2478107584E7B"
+    },
+    "oracle/model-authoring.js": {
+      "bytes": 4646,
+      "sha256": "FD22DB2DA7D7EB120D828A2429D7B008C46248EEB158BAD2DCF10C75D7D44470"
+    },
+    "oracle/ORACLE_CHECKSUMS.json": {
+      "bytes": 958,
+      "sha256": "AD5C70265A98C28CB45D7A391C526BA92C48E96C93AC275C0E405BC97DBEA1C3"
+    },
+    "oracle/original-rigs.js": {
+      "bytes": 17116,
+      "sha256": "9EB4EC903400A03ACAB60B0087282F706A0AC8E74F23CE8852890CD5B0DD3665"
+    },
+    "oracle/pose.js": {
+      "bytes": 2830,
+      "sha256": "0057A9059E7A2CF3A23B0BD7BBADA416428DF04E211BDA1005AC32C25C1CBA1D"
+    },
+    "renders/atlas-explorer-helmet/fitting_axes_dimensions.png": {
+      "bytes": 757646,
+      "sha256": "02A1EA29B7BE03D06CA68C414403A69D736893A8E67E94EE1386FFE039C34A2A"
+    },
+    "renders/atlas-explorer-helmet/front.png": {
+      "bytes": 1296136,
+      "sha256": "A2D0D0962DBC530A36EBAC159465FA26D74DA83221F16AEECA7FD2563FE9A7CE"
+    },
+    "renders/atlas-explorer-helmet/profile.png": {
+      "bytes": 1243605,
+      "sha256": "3CE04E944164AC9F4807A2B059A6E17D9036EC9FA835B4F2733201BBF78A71B9"
+    },
+    "renders/atlas-explorer-helmet/tilt_down35.png": {
+      "bytes": 1317452,
+      "sha256": "AF2E8B016A1F4EA7BE0EA3E3CD057EBA862A04FC3C3349D292B941ED7BE472DB"
+    },
+    "renders/atlas-explorer-helmet/yaw_neg45.png": {
+      "bytes": 1270453,
+      "sha256": "37027A687C793251EA642B22C39B9267B91249B8BEEA3B53AB0050F032EC7F52"
+    },
+    "renders/atlas-explorer-helmet/yaw_pos45.png": {
+      "bytes": 1275579,
+      "sha256": "B37EA08AD87D37B275005661DFD581B8015381D6E88D6B824CA93759913D626C"
+    },
+    "renders/aurora-fox-mask/fitting_axes_dimensions.png": {
+      "bytes": 604502,
+      "sha256": "A0E5D0E00ADECD190E79E6A7B6BF553D568A449E2C0C9FDCF48F005D9E5A5398"
+    },
+    "renders/aurora-fox-mask/front.png": {
+      "bytes": 1125312,
+      "sha256": "45A28AD764E476E63B0CA6B7C4E04C0F660B0E4248FED693129D9CA07391E09D"
+    },
+    "renders/aurora-fox-mask/profile.png": {
+      "bytes": 1168770,
+      "sha256": "87B471F63A649EA4D1E8387850F9556BDA1DA9BA2B1F22EFEB43966E9C2E791A"
+    },
+    "renders/aurora-fox-mask/tilt_down35.png": {
+      "bytes": 1119113,
+      "sha256": "E0A760AF5B066B6FA9CEC9BD7B11446850E6BB86CE5E6274FA8FEA7AC04BDBF5"
+    },
+    "renders/aurora-fox-mask/yaw_neg45.png": {
+      "bytes": 1129531,
+      "sha256": "2F6A244874BF5B53C2AFA9DE0478B2DF8CFB74F9CF2AF757BA027B7F91D8D6E3"
+    },
+    "renders/aurora-fox-mask/yaw_pos45.png": {
+      "bytes": 1123781,
+      "sha256": "DEFAD37124BD6A92889BC93CE64A5A12574E3DC4580E490418A5DCF01E2D3308"
+    },
+    "renders/nocturne-owl-mask/fitting_axes_dimensions.png": {
+      "bytes": 712429,
+      "sha256": "BDD0E625475BC3E0F87395C33391AC36DD714367D215C2C20B35C046D1571E5C"
+    },
+    "renders/nocturne-owl-mask/front.png": {
+      "bytes": 1290916,
+      "sha256": "1C7B0F1F5ABDB9660D2C995EB5D9FE9EDA617011E7682E742D647B1216062FB4"
+    },
+    "renders/nocturne-owl-mask/profile.png": {
+      "bytes": 1253928,
+      "sha256": "2C29B88D7D6386891D0FE99ACFC827EE3A9CDF8DD149E5D31DCEE9F576210FAB"
+    },
+    "renders/nocturne-owl-mask/tilt_down35.png": {
+      "bytes": 1256392,
+      "sha256": "354A1B074C3CEACD01DD6F238F342B8D23808D9155B31E233803C9C7DBD8F6CF"
+    },
+    "renders/nocturne-owl-mask/yaw_neg45.png": {
+      "bytes": 1286758,
+      "sha256": "712933D73DF01AE3CDFF8F969596F5BB9621709154A0B72F082D1154A415DCEF"
+    },
+    "renders/nocturne-owl-mask/yaw_pos45.png": {
+      "bytes": 1298207,
+      "sha256": "36195A2A54A56E7239BC1C56EBB780036F23FA863A087E39DF193A68F8C6316A"
+    },
+    "sources/atlas-explorer-helmet.blend": {
+      "bytes": 1167317,
+      "sha256": "E9A732DFEAFD517CDA9A0690B19F9FD6263A01E3786AA9E47AC4BBF1EB78785A"
+    },
+    "sources/atlas-explorer-helmet.blend1": {
+      "bytes": 1167319,
+      "sha256": "D5B6484B4E84535A313D493FDB757713295662FA2BBEDBEB7C86FB77A5ABA3C2"
+    },
+    "sources/aurora-fox-mask.blend": {
+      "bytes": 751357,
+      "sha256": "99D88E5E069E2990ED1DF66D83425701725724F5F6EFA1EEC31D491AFBF048A5"
+    },
+    "sources/aurora-fox-mask.blend1": {
+      "bytes": 751364,
+      "sha256": "AE2A38DA8A9C174F5FEFE04B0D7704AB19FDC9F573F37DD74A453C1062E78B05"
+    },
+    "sources/build_models.py": {
+      "bytes": 2390,
+      "sha256": "C74DB733F26858AB064E7303670016F6CC3C973484BBCD095B5771B7A632B2EE"
+    },
+    "sources/generate_atlas_helmet.py": {
+      "bytes": 16245,
+      "sha256": "FB6C1BC0B286624F2514EB81EDA215E08DDB101E2EDA5D38467FD8B262631BE4"
+    },
+    "sources/generate_aurora_fox.py": {
+      "bytes": 12302,
+      "sha256": "53BF56C056C372475130F9C953DC025638865207B9385F11A724F7D8F6FF3E56"
+    },
+    "sources/generate_nocturne_owl.py": {
+      "bytes": 11759,
+      "sha256": "8718E8AEABB801594628162ED20F75361193EFE0A81B887395DE43E2DC828C5D"
+    },
+    "sources/generate_reference_head.py": {
+      "bytes": 4685,
+      "sha256": "B4025300C80B1FC70CB9218D4A9BFFAA64D4F1B678DBC69FF27944D84FA9B921"
+    },
+    "sources/generate_textures.py": {
+      "bytes": 13745,
+      "sha256": "0A2EAD4812210244C69E5E8B7040B05E19BC8A8760F78FA0C3D7737515128BAD"
+    },
+    "sources/neutral-reference-head.blend": {
+      "bytes": 116609,
+      "sha256": "E65ED678D3B5DFACE7F2661BA5F6D670AA47150FB3A7007E640DE08A01F8DD2E"
+    },
+    "sources/neutral-reference-head.blend1": {
+      "bytes": 116625,
+      "sha256": "C671943EC9F9B87AEFB354FFA1E23FB9AD7F0F663639EE0770DAB5E266810E69"
+    },
+    "sources/nocturne-owl-mask.blend": {
+      "bytes": 731002,
+      "sha256": "FBA4404DAFBF74FF17BEA685882FF2E3DEF7CB083DFA391B07B3B9FB650E0BF1"
+    },
+    "sources/nocturne-owl-mask.blend1": {
+      "bytes": 731025,
+      "sha256": "50BBFC58CB6D305EFCC382D28A616C9282EBA24A2461F6BF97C36E90013465B4"
+    },
+    "sources/render_previews.py": {
+      "bytes": 9913,
+      "sha256": "8E3CA24134C61598C23D5278B65074D213CBDB3BDA2DDAB7C7207BCC29ECF832"
+    },
+    "sources/textures/atlas_helmet_albedo.png": {
+      "bytes": 30624,
+      "sha256": "08594B50D9B0419C621B54B0C38ED5B8A156D1DD3BA856252CECC3F0A51CF3E2"
+    },
+    "sources/textures/atlas_helmet_roughness_metal.png": {
+      "bytes": 24964,
+      "sha256": "99E56DA4172C4AE7CBA1C449C0D194340223EA92247A86549B3C7B126718162E"
+    },
+    "sources/textures/aurora_fox_albedo.png": {
+      "bytes": 179062,
+      "sha256": "E34C96A0E1C4E1C1FA4E63CAA81773B6DA207EDF9D2C37FD006CB598BC2CB921"
+    },
+    "sources/textures/aurora_fox_roughness_metal.png": {
+      "bytes": 26701,
+      "sha256": "CA5DD9529859F76CC2B9CF6384CDAD65E173F4C00FFDED382F9C729B1266D420"
+    },
+    "sources/textures/nocturne_owl_albedo.png": {
+      "bytes": 623786,
+      "sha256": "CC4F5DAC094D55662E83B1B20299B13464BD6CF7113572FD523F28C0EEE54C66"
+    },
+    "sources/textures/nocturne_owl_roughness_metal.png": {
+      "bytes": 23740,
+      "sha256": "AFA71907CC0BC79572A854300DA64058660F2CE0EBB8773AE402DF46690D0E16"
+    },
+    "sources/__pycache__/generate_textures.cpython-310.pyc": {
+      "bytes": 7765,
+      "sha256": "689879E11EDFA3B6445BD5C62998F6EA5F6C61AB96A15D23F62F76180F3CA24D"
+    },
+    "tools/build_manifest.py": {
+      "bytes": 7745,
+      "sha256": "A66022A60D147BC343F240D7168692970D43EA1EC136E3E8DDF2F97259FDCD0F"
+    },
+    "tools/verify_delivery.py": {
+      "bytes": 13378,
+      "sha256": "2F02A20F450CDD5E7858723092639210114E666CB2F279489D0F670037A9598B"
+    }
+  }
+}

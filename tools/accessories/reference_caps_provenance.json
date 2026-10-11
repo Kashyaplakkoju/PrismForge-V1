@@ -1,0 +1,431 @@
+{
+  "schemaVersion": 1,
+  "sourceRoot": "LOCAL_ASSET_INPUT",
+  "exportScript": "tools/accessories/export_reference_caps.py",
+  "exportScriptSha256": "bf542d85396b32ca3a156e5999ed61482390c6a764e35530214d1a9cb32bfc80",
+  "scope": "User-supplied GLB geometry and original embedded image bytes. Metadata is recorded verbatim; no commercial rights are inferred.",
+  "sources": [
+    {
+      "file": "white_tennis_cap.glb",
+      "sha256": "2ef37cee54fb735323c7813632ea955d5ee586757c8cad7ff6860d4fb6d773f2"
+    },
+    {
+      "file": "pokemon_masters_cap.glb",
+      "sha256": "0cfc418e8bfda81fab7c59d4b065b7ba12cfdd83bdb4d3376655daf914caf4ba"
+    },
+    {
+      "file": "pokemon_masters_cap (1).glb",
+      "sha256": "2a155da0da40320b4237912316b2394b604319df892a32368c233a2e877fbf6e"
+    }
+  ],
+  "models": [
+    {
+      "id": "tennis",
+      "file": "white_tennis_cap.glb",
+      "sha256": "2ef37cee54fb735323c7813632ea955d5ee586757c8cad7ff6860d4fb6d773f2",
+      "byteLength": 2654876,
+      "assetMetadata": {
+        "extras": {
+          "author": "assetfactory (https://sketchfab.com/assetfactory)",
+          "license": "SKETCHFAB Standard (https://sketchfab.com/licenses)",
+          "source": "https://sketchfab.com/3d-models/white-tennis-cap-868f6de838154a53a1201dac14f04244",
+          "title": "White tennis cap"
+        },
+        "generator": "Sketchfab-16.33.0",
+        "version": "2.0"
+      },
+      "components": [
+        {
+          "node": "Cube.004_Hat1_0",
+          "mesh": "Cube.004_Hat1_0",
+          "vertices": 1907,
+          "triangles": 3520,
+          "firstVertex": 0,
+          "firstTriangle": 0,
+          "material": 0,
+          "worldMatrixRowMajor": [
+            1.0887541718314395,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.7738056912371688e-07,
+            1.088754171831425,
+            0.5813708366147239,
+            0.0,
+            -1.088754171831425,
+            -1.7738056912371688e-07,
+            1.290902577310513e-16,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "negativeDeterminantWindingReversed": false
+        },
+        {
+          "node": "Plane_Hat1_0",
+          "mesh": "Plane_Hat1_0",
+          "vertices": 117,
+          "triangles": 192,
+          "firstVertex": 1907,
+          "firstTriangle": 3520,
+          "material": 0,
+          "worldMatrixRowMajor": [
+            1.0887541718314395,
+            2.4175202644832384e-16,
+            -2.41751953441254e-16,
+            0.0,
+            2.417519899447917e-16,
+            -1.0887541718314275,
+            -1.6439730595504003e-07,
+            0.5369603609228053,
+            -2.4175198994479164e-16,
+            1.6439730595504003e-07,
+            -1.0887541718314275,
+            -0.8259540373246209,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "negativeDeterminantWindingReversed": false
+        }
+      ],
+      "worldGeometrySha256": "bdfc1f23fcb5e8d0fd0264a73c83b7382779376ee5781a0e994539b051b8fa52",
+      "vertices": 2024,
+      "triangles": 3712,
+      "calibration": {
+        "worldEnvelope": {
+          "min": [
+            -0.9727104902267456,
+            0.0028653843328356743,
+            -0.8954861760139465
+          ],
+          "max": [
+            0.9727105498313904,
+            0.85739666223526,
+            2.1585638523101807
+          ]
+        },
+        "uniformScale": 0.5654302988144552,
+        "worldCenterX": 2.9802322387695312e-08,
+        "frontSign": 1,
+        "frontBandVertex": 493,
+        "bandY": 0.3106876611709595,
+        "frontBandZ": 1.061342716217041,
+        "normalization": "proper Y rotation when frontSign=-1; width1.1; crown-front band at local(y0,z+.5); original UV0 unchanged"
+      },
+      "normalizedEnvelope": {
+        "min": [
+          -0.550000011920929,
+          -0.17405204474925995,
+          -0.6064503192901611
+        ],
+        "max": [
+          0.550000011920929,
+          0.3091258406639099,
+          1.1204020977020264
+        ]
+      },
+      "textures": [
+        {
+          "role": "base",
+          "mimeType": "image/jpeg",
+          "sha256": "c2939a80e4ea8054372ea755843c8af56c7e61b8e1ebcd59f45eeeca021ac4f6",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 0
+          },
+          "path": "windows/res/accessories/tennis_base.jpg",
+          "byteLength": 234523,
+          "width": 1024,
+          "height": 1024,
+          "runtime": {
+            "path": "windows/res/accessories/white_tennis_cap.pfrgba",
+            "format": "PFC1 + uint32LE width + uint32LE height + tightly packed RGBA8 rows; image row0 first; UV0 unchanged",
+            "width": 1024,
+            "height": 1024,
+            "byteLength": 4194316,
+            "sha256": "9f784f4aa60d32e3b095b48af8fd4879b2e1a1a5b8335be5b3a611f82e23ea70",
+            "sourceSha256": "c2939a80e4ea8054372ea755843c8af56c7e61b8e1ebcd59f45eeeca021ac4f6",
+            "decodedRgbaSha256": "ba238a11167bc006bec0534ba2f107a80be578c3627d3370a1a5712cfd54b432",
+            "resized": false,
+            "conversion": "Pillow 12.2.0; convertRGBA; no resizing; exact decoded source pixels",
+            "baseColorFactor": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "role": "roughness_metallic",
+          "mimeType": "image/png",
+          "sha256": "9239ed75cfc1d4ab18f3d321dc3f784bbdb5037a95d83758717f90cdf501cd26",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 1
+          },
+          "path": "windows/res/accessories/tennis_roughness_metallic.png",
+          "byteLength": 690729,
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "role": "normal",
+          "mimeType": "image/png",
+          "sha256": "89e9bd3622e0b0323efe772106a16ad4e591009053f4c109def5279eff734303",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 2
+          },
+          "path": "windows/res/accessories/tennis_normal.png",
+          "byteLength": 1550162,
+          "width": 1024,
+          "height": 1024
+        }
+      ],
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "Hat1",
+          "normalTexture": {
+            "index": 2
+          },
+          "occlusionTexture": {
+            "index": 1
+          },
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0.0,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "pokemon",
+      "file": "pokemon_masters_cap.glb",
+      "sha256": "0cfc418e8bfda81fab7c59d4b065b7ba12cfdd83bdb4d3376655daf914caf4ba",
+      "byteLength": 3208316,
+      "assetMetadata": {
+        "extras": {
+          "author": "Nick Pekarsky (https://sketchfab.com/kolumba1991)",
+          "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+          "source": "https://sketchfab.com/3d-models/pokemon-masters-cap-892e724659c44d6c8771252523075b54",
+          "title": "Pokemon master's cap"
+        },
+        "generator": "Sketchfab-12.65.0",
+        "version": "2.0"
+      },
+      "components": [
+        {
+          "node": "LOW_Material_0",
+          "mesh": "LOW_Material_0",
+          "vertices": 739,
+          "triangles": 1080,
+          "firstVertex": 0,
+          "firstTriangle": 0,
+          "material": 0,
+          "worldMatrixRowMajor": [
+            100.0,
+            5.152188242058711e-16,
+            4.755506591364644e-15,
+            17.043275833129883,
+            -4.755506671064924e-15,
+            21.416900084816724,
+            97.67966211426501,
+            0.0,
+            -5.152180885660553e-16,
+            -97.67966211426501,
+            21.416900084816724,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "negativeDeterminantWindingReversed": false
+        }
+      ],
+      "worldGeometrySha256": "67e2ae079ad35629cedc5ebeef516c188399e2f83f22f34dd10a968241207363",
+      "vertices": 739,
+      "triangles": 1080,
+      "calibration": {
+        "worldEnvelope": {
+          "min": [
+            -708.8531494140625,
+            -3.3335821628570557,
+            -1518.0455322265625
+          ],
+          "max": [
+            709.6627197265625,
+            1275.9073486328125,
+            989.1804809570312
+          ]
+        },
+        "uniformScale": 0.0007754583673895799,
+        "worldCenterX": 0.40478515625,
+        "frontSign": -1,
+        "frontBandVertex": 354,
+        "bandY": 526.87109375,
+        "frontBandZ": -867.6121826171875,
+        "normalization": "proper Y rotation when frontSign=-1; width1.1; crown-front band at local(y0,z+.5); original UV0 unchanged"
+      },
+      "normalizedEnvelope": {
+        "min": [
+          -0.550000011920929,
+          -0.411151647567749,
+          -0.9398654103279114
+        ],
+        "max": [
+          0.550000011920929,
+          0.5808464288711548,
+          1.0043840408325195
+        ]
+      },
+      "textures": [
+        {
+          "role": "base",
+          "mimeType": "image/png",
+          "sha256": "662a1ba0044bbba456195a924b80d9595a8afe8101a8276e36f9ac0a6e028127",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 0
+          },
+          "path": "windows/res/accessories/pokemon_base.png",
+          "byteLength": 2177158,
+          "width": 2048,
+          "height": 2048,
+          "runtime": {
+            "path": "windows/res/accessories/pokemon_masters_cap.pfrgba",
+            "format": "PFC1 + uint32LE width + uint32LE height + tightly packed RGBA8 rows; image row0 first; UV0 unchanged",
+            "width": 2048,
+            "height": 2048,
+            "byteLength": 16777228,
+            "sha256": "28bd43f2d0c6af4c9352e625c22fcaf65c4cab47cf8be1459051fe2d9f5005a4",
+            "sourceSha256": "662a1ba0044bbba456195a924b80d9595a8afe8101a8276e36f9ac0a6e028127",
+            "decodedRgbaSha256": "ddf3e8b7fd1df043b2b5a736675709d9546e05dcd983eb1510802700856b6bfa",
+            "resized": false,
+            "conversion": "Pillow 12.2.0; convertRGBA; no resizing; exact decoded source pixels",
+            "baseColorFactor": [
+              1,
+              1,
+              1,
+              1
+            ]
+          }
+        },
+        {
+          "role": "roughness_metallic",
+          "mimeType": "image/png",
+          "sha256": "096268b1b07be39697596b37a519ec47e08dc7c18d1cd1b1e7c8120800886b9a",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 1
+          },
+          "path": "windows/res/accessories/pokemon_roughness_metallic.png",
+          "byteLength": 13413,
+          "width": 2048,
+          "height": 2048
+        },
+        {
+          "role": "normal",
+          "mimeType": "image/png",
+          "sha256": "70921a11e680fd3bf1c31f65dad67b4e7bf579fa2d2db46ee4822b5d570784b2",
+          "sampler": {
+            "magFilter": 9729,
+            "minFilter": 9987,
+            "wrapS": 10497,
+            "wrapT": 10497
+          },
+          "textureProperties": {
+            "index": 2
+          },
+          "path": "windows/res/accessories/pokemon_normal.png",
+          "byteLength": 953597,
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "materials": [
+        {
+          "doubleSided": true,
+          "name": "Material",
+          "normalTexture": {
+            "index": 2
+          },
+          "pbrMetallicRoughness": {
+            "baseColorTexture": {
+              "index": 0
+            },
+            "metallicFactor": 0.0,
+            "metallicRoughnessTexture": {
+              "index": 1
+            }
+          }
+        }
+      ],
+      "alternativeDownload": {
+        "file": "pokemon_masters_cap (1).glb",
+        "sha256": "2a155da0da40320b4237912316b2394b604319df892a32368c233a2e877fbf6e",
+        "byteLength": 1095080,
+        "worldGeometrySha256": "67e2ae079ad35629cedc5ebeef516c188399e2f83f22f34dd10a968241207363",
+        "geometryMatchesSelected": true,
+        "textures": [
+          {
+            "role": "base",
+            "sha256": "16eda7f08a363383c872a475a5b5ea004dfae23a412df74914dab76dc61a5a45",
+            "byteLength": 613253
+          },
+          {
+            "role": "roughness_metallic",
+            "sha256": "c440926156f247904c4c1b2b006019e705d693c6e50f7a03255cdbc3e0908e08",
+            "byteLength": 6157
+          },
+          {
+            "role": "normal",
+            "sha256": "8b2dd1c7a8cdb90b520564887811b79b8f5d92bddfaa06768fb6e6a7e7d39efe",
+            "byteLength": 411523
+          }
+        ],
+        "selection": "original filename selected; alternate has same geometry but different embedded textures"
+      }
+    }
+  ],
+  "output": {
+    "path": "windows/src/effects/overlays/reference_caps_mesh.inc",
+    "sha256": "45ab7e423bb8dc9b1de3fec1233cd4b0e65862ad7a6a5559bdf9258709003151"
+  }
+}

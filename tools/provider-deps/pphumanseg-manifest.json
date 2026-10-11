@@ -1,0 +1,35 @@
+{
+  "modelName": "OpenCV Zoo PP-HumanSeg",
+  "modelVersion": "2023mar",
+  "inputTensorName": "x",
+  "inputDims": [
+    1,
+    3,
+    192,
+    192
+  ],
+  "inputLayout": "NCHW",
+  "outputTensorName": "save_infer_model/scale_0.tmp_1",
+  "outputDims": [
+    1,
+    2,
+    192,
+    192
+  ],
+  "outputLayout": "NCHW",
+  "outputInterpretation": "RawProbability",
+  "personClassIndex": 1,
+  "mean": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "std": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "scaleTo01": true,
+  "aspectMode": "Stretch",
+  "retainSoftProbability": true
+}

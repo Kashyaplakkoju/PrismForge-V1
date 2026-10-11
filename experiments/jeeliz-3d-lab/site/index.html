@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PrismForge  /  3D face filter lab</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="lab.css">
+</head>
+<body>
+<main>
+<header><p class="eyebrow">PrismForge experiment</p><h1>Step inside a new face.</h1>
+<p>Seven 3D looks, plus your own models. Turn your head and see the shape and lighting move with you.</p></header>
+<div class="layout">
+<section class="viewer" aria-label="3D preview">
+<div id="stage" class="stage mirrored"><video id="sourceVideo" class="source-video" autoplay muted playsinline hidden></video>
+<canvas id="trackingCanvas" width="800" height="600" aria-label="Camera background"></canvas>
+<canvas id="overlayCanvas" width="800" height="600" aria-label="Textured 3D face filter"></canvas>
+<div id="placeholder"><span>Camera is off</span><p>Choose a camera and press Start.<br>Or try model motion without using a camera.</p></div>
+</div>
+<div class="statusline"><span id="statusDot" class="dot"></span><p id="status" role="status" aria-live="polite">Ready. Camera is off.</p></div>
+<p id="confidence">No face tracking is running.</p>
+</section>
+<section class="controls" aria-labelledby="controlsTitle">
+<h2 id="controlsTitle">Try it locally</h2><label for="filterSelect">3D filter</label><select id="filterSelect"><option value="helmet">Rupy motorcycle helmet</option><option value="mask">Anonymous 3D mask</option><option value="dog">Dog ears, nose &amp; tongue</option><option value="tiger">Tiger mask</option><option value="werewolf">Werewolf mask</option><option value="astronaut">Orbit astronaut helmet</option><option value="cyber">Prism cyber mask</option></select>
+<label for="cameraSelect">Camera source</label>
+<div class="source-row"><select id="cameraSelect"><option value="">Default camera</option></select>
+<button id="refreshCameras" type="button" class="secondary" aria-label="Refresh camera list">Refresh</button></div>
+<p class="help">System cameras and PrismForge's virtual camera appear here when the browser exposes them. Press Stop before changing your filter or camera.</p>
+<div class="action-row"><button id="startCamera" type="button">Start camera</button><button id="stopCamera" type="button" class="secondary" disabled>Stop</button></div>
+<button id="demoMode" type="button" class="secondary wide">Try model motion  /  no camera</button>
+<label class="check"><input id="mirror" type="checkbox" checked> Mirror preview</label>
+<div id="demoControls" hidden>
+<label for="demoYaw">Turn the model <span id="yawValue">0 deg</span></label>
+<input id="demoYaw" type="range" min="-60" max="60" value="0">
+<div id="mouthControl"><label for="demoMouth">Open its mouth <span id="mouthValue">0%</span></label>
+<input id="demoMouth" type="range" min="0" max="100" value="0"></div>
+<label class="check"><input id="autoMotion" type="checkbox" checked> Animate model motion</label>
+<label class="check"><input id="simulateLoss" type="checkbox"> Simulate tracking loss</label>
+</div>
+<div id="error" role="alert" hidden></div>
+<section class="custom-model" aria-labelledby="customTitle">
+<h3 id="customTitle">Upload your own</h3>
+<p class="help">Choose a static .glb with its textures inside. Your file stays in this browser and is cleared when you reload. Press Stop before importing or removing a model.</p>
+<input id="modelFile" type="file" accept=".glb,model/gltf-binary" hidden>
+<button id="uploadModel" type="button" class="secondary wide">Choose GLB model</button>
+<p id="modelInfo" class="help" role="status">No custom model loaded.</p>
+<button id="removeModel" type="button" class="secondary wide" disabled>Remove custom model</button>
+<div id="modelFit" hidden>
+<h4>Fit your model</h4><p class="help">Models start near the face; the supplied caps use a forehead-band fit. Move and rotate the whole model if needed. Size keeps its original proportions. Check model motion, then your camera.</p>
+<div class="fit-grid">
+<label for="fitScale">Size (%)<input id="fitScale" type="number" min="10" max="300" step="5" value="100"></label>
+<label for="fitX">Left / right<input id="fitX" type="number" min="-3" max="3" step="0.05" value="0"></label>
+<label for="fitY">Up / down<input id="fitY" type="number" min="-3" max="3" step="0.05" value="0"></label>
+<label for="fitZ">Forward / back<input id="fitZ" type="number" min="-3" max="3" step="0.05" value="0"></label>
+<label for="fitRX">Tilt (degrees)<input id="fitRX" type="number" min="-180" max="180" step="5" value="0"></label>
+<label for="fitRY">Turn (degrees)<input id="fitRY" type="number" min="-180" max="180" step="5" value="0"></label>
+<label for="fitRZ">Roll (degrees)<input id="fitRZ" type="number" min="-180" max="180" step="5" value="0"></label>
+</div>
+<label class="check"><input id="fitOcclusion" type="checkbox" checked> Hide surfaces behind the head</label>
+<p class="help">Uses an approximate head shape. It cannot wrap a model around your hair or animate a rigid model's expression.</p>
+<button id="resetFit" type="button" class="secondary wide">Reset model fit</button>
+</div>
+<h4>Make more filters with AI</h4>
+<p class="help">Copy the brief for Antigravity, Gemini or a 3D creation tool. Replace the design name with your idea. The result must be a real GLB file, rather than a picture of a model.</p>
+<button id="copyModelPrompt" type="button" class="secondary wide">Copy AI model prompt</button>
+<p id="promptStatus" class="help" role="status"></p>
+<details id="promptDetails"><summary>Creation process and prompt</summary>
+<ol class="help"><li>Describe an original mask, helmet or accessory.</li><li>Generate the 3D mesh, or ask a coding AI for a Blender script that builds and exports it.</li><li>Export one static GLB with embedded PNG/JPEG textures.</li><li>Choose the file above, test model motion, adjust the fit and then start your camera.</li></ol>
+<label for="modelPrompt">AI creation brief</label><textarea id="modelPrompt" rows="14" readonly></textarea></details>
+</section>
+<aside><strong>Preview prototype</strong><p>This browser lab does not send filtered frames to PrismForge or any virtual camera. Choosing a PrismForge input does not change that. Images stay on this computer.</p></aside>
+</section>
+</div>
+<footer><p>Original space and cyber designs plus five Jeeliz demo filters  /  local files only</p>
+<details><summary>Sources and scope</summary><p>Jeeliz detects face position, scale, rotation and mouth opening. This lab uses one face. The tiger jaw follows mouth opening; the werewolf uses a static mesh. Orbit and Prism are original geometric designs. Custom models use uniform scaling. Tiger uses its original demo calibration. Dog ears and muzzle use calibrated head-local attachment parents; the helmet and dog use a depth-only head proxy to hide rear surfaces. This approximate proxy is not a scan of your head. Live fit, camera compatibility and speed need a real camera check. Model branding and original provenance remain; commercial model clearance has not been established.</p>
+<p><a href="vendor/JEELIZ-LICENSE.txt">Jeeliz Apache 2.0 licence</a>  /  <a href="vendor/THREE-LICENSE.txt">Three.js MIT licence</a>  /  <a href="assets-manifest.json">Pinned source and asset hashes</a>  /  <a href="NOTICES.txt">Notices</a></p></details></footer>
+</main>
+
+<script src="vendor/jeelizFaceFilter.js"></script>
+<script src="vendor/three.js"></script>
+<script src="vendor/GLTFLoader.js"></script>
+<script src="vendor/JeelizThreeHelper.js"></script>
+<script src="pose.js"></script>
+<script src="head-attachment.js"></script>
+<script src="dog-rig.js"></script><script src="wildlife-rigs.js"></script>
+<script src="original-rigs.js"></script><script src="filter-rigs.js"></script>
+<script src="local-model.js"></script><script src="model-authoring.js"></script>
+<script src="lab.js"></script>
+</body></html>

@@ -1,0 +1,27 @@
+{
+  "3D_FILTER_AUTHORING.md": {
+    "path": "docs/3D_FILTER_AUTHORING.md",
+    "bytes": 6964,
+    "sha256": "FF7383A2C86554DDBCBE26B9612C2DC6E794B112D1A94A8967C705AA057805C4"
+  },
+  "model-authoring.js": {
+    "path": "experiments/jeeliz-3d-lab/site/model-authoring.js",
+    "bytes": 4646,
+    "sha256": "FD22DB2DA7D7EB120D828A2429D7B008C46248EEB158BAD2DCF10C75D7D44470"
+  },
+  "local-model.js": {
+    "path": "experiments/jeeliz-3d-lab/site/local-model.js",
+    "bytes": 27056,
+    "sha256": "EA3C8AAA4149A36C3FA1AF810CE7DED9EA63130795C17BD0B2E2478107584E7B"
+  },
+  "pose.js": {
+    "path": "experiments/jeeliz-3d-lab/site/pose.js",
+    "bytes": 2830,
+    "sha256": "0057A9059E7A2CF3A23B0BD7BBADA416428DF04E211BDA1005AC32C25C1CBA1D"
+  },
+  "original-rigs.js": {
+    "path": "experiments/jeeliz-3d-lab/site/original-rigs.js",
+    "bytes": 17116,
+    "sha256": "9EB4EC903400A03ACAB60B0087282F706A0AC8E74F23CE8852890CD5B0DD3665"
+  }
+}

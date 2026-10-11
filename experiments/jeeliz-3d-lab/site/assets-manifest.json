@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/jeeliz/jeelizFaceFilter",
+    "commit": "6f2695120b992511fd6cb1fd80c600bb957cd08c"
+  },
+  "assets": [
+    {
+      "path": "vendor/jeelizFaceFilter.js",
+      "sha256": "c236f103130d997e749ce3a0dbee3e4f31c5a7b80731bf3722219903ee725390",
+      "bytes": 111507,
+      "role": "script",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/dist/jeelizFaceFilter.js",
+      "upstreamPath": "dist/jeelizFaceFilter.js"
+    },
+    {
+      "path": "vendor/three.js",
+      "sha256": "e2d95424650046f62be910311ec644ef10df249929820b5905fc458ff5fc4212",
+      "bytes": 1390223,
+      "role": "script",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/libs/three/v97/three.js",
+      "upstreamPath": "libs/three/v97/three.js"
+    },
+    {
+      "path": "vendor/JeelizThreeHelper.js",
+      "sha256": "be224235e1cc3d35b999dfa22cf772f9a95e96c28ac5cda1061d43cb3d1bda31",
+      "bytes": 16655,
+      "role": "script",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/helpers/JeelizThreeHelper.js",
+      "upstreamPath": "helpers/JeelizThreeHelper.js"
+    },
+    {
+      "path": "vendor/NN_DEFAULT.json",
+      "sha256": "f348ce0fb3b30b8cf27e1666bc56de0c6b1f1b8f02cadc4cd5ca53169534b182",
+      "bytes": 3756740,
+      "role": "model",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/neuralNets/NN_DEFAULT.json",
+      "upstreamPath": "neuralNets/NN_DEFAULT.json"
+    },
+    {
+      "path": "vendor/JEELIZ-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "role": "license",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/LICENSE",
+      "upstreamPath": "LICENSE"
+    },
+    {
+      "path": "vendor/UPSTREAM-dog-main.js.txt",
+      "sha256": "c6d6bf5f627b775731483b5da7e65ae3585c9c80bbd14d2bc645ad337eabb90f",
+      "bytes": 9969,
+      "role": "source-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/main.js",
+      "upstreamPath": "demos/threejs/dog_face/main.js"
+    },
+    {
+      "path": "assets/dog/dog_ears.json",
+      "sha256": "d670ef8d8c08e6faf3783a648be91c9d3e42fd674411fbfca8560a00e3c2ea82",
+      "bytes": 60519,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/dog_ears.json",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/dog_ears.json"
+    },
+    {
+      "path": "assets/dog/dog_nose.json",
+      "sha256": "3bb470358e7832bf18293079c62d1c87b57d5ba405f575984fa9ba2c951beb8e",
+      "bytes": 53521,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/dog_nose.json",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/dog_nose.json"
+    },
+    {
+      "path": "assets/dog/dog_tongue.json",
+      "sha256": "2fe90b6106f8f3e65e822c146f1e28cc37e56369fc1956d41844523ae7cfc667",
+      "bytes": 276642,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/dog_tongue.json",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/dog_tongue.json"
+    },
+    {
+      "path": "assets/dog/texture_ears.jpg",
+      "sha256": "8e0c24d3695ddb434a1c6ed7f7a1bf87ff8a1d0d21f0bc9bf1ec97f5bb4e72f7",
+      "bytes": 199867,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/texture_ears.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/texture_ears.jpg"
+    },
+    {
+      "path": "assets/dog/alpha_ears_256.jpg",
+      "sha256": "8737d4b5ab66d627991cfcc75c8437fcd98206b1117e77c16c3bf354a6488813",
+      "bytes": 4784,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/alpha_ears_256.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/alpha_ears_256.jpg"
+    },
+    {
+      "path": "assets/dog/normal_ears.jpg",
+      "sha256": "6cda71af07722de8f314335a714dc196b63c96dc27e69dddb3cd655b638f272c",
+      "bytes": 375874,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/normal_ears.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/normal_ears.jpg"
+    },
+    {
+      "path": "assets/dog/texture_nose.jpg",
+      "sha256": "50541bddd3d6e30a915771de15780164ec148582e7dafd1d0c35919603eaac7d",
+      "bytes": 161859,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/texture_nose.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/texture_nose.jpg"
+    },
+    {
+      "path": "assets/dog/normal_nose.jpg",
+      "sha256": "8e244953e025414b0c59fc5f2fb9c0e0669b6e5672e2a56c9a116ee2641e8c2f",
+      "bytes": 200412,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/normal_nose.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/normal_nose.jpg"
+    },
+    {
+      "path": "assets/dog/dog_tongue.jpg",
+      "sha256": "dd33b6f430a787e1c44136c19cef465d3feebe7e00b7fa1d4b781c0a34ed1b09",
+      "bytes": 213908,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/dog_tongue.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/dog_tongue.jpg"
+    },
+    {
+      "path": "assets/dog/tongue_alpha_256.jpg",
+      "sha256": "9ad3d9af20468ebb6fdcce86dd013c33c08f0064f35eb8ac0dd69be6b612038d",
+      "bytes": 4022,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/dog_face/models/dog/tongue_alpha_256.jpg",
+      "upstreamPath": "demos/threejs/dog_face/models/dog/tongue_alpha_256.jpg"
+    },
+    {
+      "path": "vendor/THREE-LICENSE.txt",
+      "sha256": "551f06ddc3dc36b56610aa23db680826ba9d9a02e8f89f7bec05d7fa27401a2b",
+      "bytes": 1081,
+      "role": "license",
+      "sourceUrl": "https://raw.githubusercontent.com/mrdoob/three.js/2410ad1a8f5844df00191600eafda59def537830/LICENSE",
+      "upstreamPath": "LICENSE",
+      "upstreamCommit": "2410ad1a8f5844df00191600eafda59def537830"
+    },
+    {
+      "path": "assets/helmet/helmet.json",
+      "sha256": "5951f86d241b0638c0c3b3998886382d0544056fd56cf7cd6b334e31327d780c",
+      "bytes": 490934,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/rupy_helmet/models/helmet/helmet.json",
+      "upstreamPath": "demos/threejs/rupy_helmet/models/helmet/helmet.json"
+    },
+    {
+      "path": "assets/helmet/visiere.json",
+      "sha256": "67d101df074d68686916e4fd34c85550adf2c7da3645a4a831573cb4f0a9915a",
+      "bytes": 180106,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/rupy_helmet/models/helmet/visiere.json",
+      "upstreamPath": "demos/threejs/rupy_helmet/models/helmet/visiere.json"
+    },
+    {
+      "path": "assets/helmet/face.json",
+      "sha256": "bca35297586e6011e3202699f7db75c19f6431d194e1413ea46e9f5baf729e4b",
+      "bytes": 21760,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/rupy_helmet/models/face/faceLowPolyEyesEarsFill2.json",
+      "upstreamPath": "demos/threejs/rupy_helmet/models/face/faceLowPolyEyesEarsFill2.json"
+    },
+    {
+      "path": "assets/helmet/diffuse_helmet.jpg",
+      "sha256": "38dc46f53271927fbba0d3c84356e0c9946d33772e53324edd94f7da49fb39ad",
+      "bytes": 1074826,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/rupy_helmet/models/helmet/diffuse_helmet.jpg",
+      "upstreamPath": "demos/threejs/rupy_helmet/models/helmet/diffuse_helmet.jpg"
+    },
+    {
+      "path": "assets/mask/mask.json",
+      "sha256": "b94e646db84a218a48d2d4ac921a2fb139299c9befaf163e89124be17813fcde",
+      "bytes": 447315,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/anonymous/models/anonymous/anonymous.json",
+      "upstreamPath": "demos/threejs/anonymous/models/anonymous/anonymous.json"
+    },
+    {
+      "path": "assets/mask/mask.png",
+      "sha256": "dba5f5efa6f04a9b5f001d016e0d0392e1e2ccb32afd4912a8fdc4dc43e3723e",
+      "bytes": 162087,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/anonymous/models/anonymous/anonymous.png",
+      "upstreamPath": "demos/threejs/anonymous/models/anonymous/anonymous.png"
+    },
+    {
+      "path": "vendor/UPSTREAM-helmet-main.js.txt",
+      "sha256": "ae0a67bf2ab56bbd4c127b12d9702c35b8a3a59c335d1be1a9aa73364827e5d8",
+      "bytes": 6806,
+      "role": "source-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/rupy_helmet/main.js",
+      "upstreamPath": "demos/threejs/rupy_helmet/main.js"
+    },
+    {
+      "path": "vendor/UPSTREAM-mask-main.js.txt",
+      "sha256": "6e54ce183462853dfbf4e004288bc5bb06c76b7139e41e7d6f7b08a2ed3485bd",
+      "bytes": 4008,
+      "role": "source-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/anonymous/main.js",
+      "upstreamPath": "demos/threejs/anonymous/main.js"
+    },
+    {
+      "path": "vendor/UPSTREAM-tiger-main.js.txt",
+      "sha256": "c47091985d9af0a179c19bd51aac77ff0e4d5cda9339e83f45f16902333a9654",
+      "bytes": 9192,
+      "role": "source-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/tiger/main.js",
+      "upstreamPath": "demos/threejs/tiger/main.js"
+    },
+    {
+      "path": "vendor/UPSTREAM-werewolf-main.js.txt",
+      "sha256": "890177e0da5417f134c1300a7d318a4f886b859bae0b201536c0c5a63b6af4bc",
+      "bytes": 8354,
+      "role": "source-reference",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/main.js",
+      "upstreamPath": "demos/threejs/werewolf/main.js"
+    },
+    {
+      "path": "assets/tiger/TigerHead.json",
+      "sha256": "90380f2e9071d58724622481c4e0548521292225b94c248368ce28c2082a8c0c",
+      "bytes": 100325,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/tiger/TigerHead.json",
+      "upstreamPath": "demos/threejs/tiger/TigerHead.json"
+    },
+    {
+      "path": "assets/tiger/headTexture2.png",
+      "sha256": "95abb5ae7bb8c155ff647d31a6ae5dfad2665baa0161e5939b9aed58e29bf1a2",
+      "bytes": 214177,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/tiger/headTexture2.png",
+      "upstreamPath": "demos/threejs/tiger/headTexture2.png"
+    },
+    {
+      "path": "assets/tiger/white.png",
+      "sha256": "88de524612acf80151cee1c52b56c3d150823f09dcff8db7e5b46a928ba6d9e0",
+      "bytes": 109,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/tiger/white.png",
+      "upstreamPath": "demos/threejs/tiger/white.png"
+    },
+    {
+      "path": "assets/werewolf/werewolf_not_animated.json",
+      "sha256": "8bf0df94c55519a7f9a2bbeae0f9ce30ed1d61cbba77b8d896ff167735423511",
+      "bytes": 1055219,
+      "role": "geometry",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/werewolf_not_animated.json",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/werewolf_not_animated.json"
+    },
+    {
+      "path": "assets/werewolf/head_diffuse.png",
+      "sha256": "3ba51069d1717fe7b8c5397a62ea11110628a6cb9a2c4ea8aab0ff0111b629b8",
+      "bytes": 149674,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/head_diffuse.png",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/head_diffuse.png"
+    },
+    {
+      "path": "assets/werewolf/head_normal.jpg",
+      "sha256": "184310aa42ff771a853ed61046a430bf3d47fa57cd2ac3be69c418671919c14f",
+      "bytes": 98399,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/head_normal.jpg",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/head_normal.jpg"
+    },
+    {
+      "path": "assets/werewolf/head_alpha.jpg",
+      "sha256": "74eac392828c6f65d1e16ffb86d63122f56170d861638d7b44a05477de38e909",
+      "bytes": 29446,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/head_alpha.jpg",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/head_alpha.jpg"
+    },
+    {
+      "path": "assets/werewolf/fur_diffuse.jpg",
+      "sha256": "20812d045565b4f10aa6ef4cd121dde7d9b81e3581605788c514ee447e9f59ff",
+      "bytes": 186755,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/fur_diffuse.jpg",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/fur_diffuse.jpg"
+    },
+    {
+      "path": "assets/werewolf/fur_normal.png",
+      "sha256": "b65c2821186b81b31727e90f53951033815483dbe313795e6bd56626ef9f08f1",
+      "bytes": 143459,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/fur_normal.png",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/fur_normal.png"
+    },
+    {
+      "path": "assets/werewolf/fur_alpha.jpg",
+      "sha256": "0e791ef88dd754e39ac5b4a2728cbdc54abd95f83872a3676d20bc74539ee364",
+      "bytes": 243686,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/fur_alpha.jpg",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/fur_alpha.jpg"
+    },
+    {
+      "path": "assets/werewolf/teeth_diffuse.jpg",
+      "sha256": "59143e6cea7329daa326034cfc148f8a22fa70a90d5cfe76988fb91ca942b37e",
+      "bytes": 271758,
+      "role": "texture",
+      "sourceUrl": "https://raw.githubusercontent.com/jeeliz/jeelizFaceFilter/6f2695120b992511fd6cb1fd80c600bb957cd08c/demos/threejs/werewolf/models/werewolf/teeth_diffuse.jpg",
+      "upstreamPath": "demos/threejs/werewolf/models/werewolf/teeth_diffuse.jpg"
+    },
+    {
+      "path": "vendor/GLTFLoader.js",
+      "sha256": "a2121e9f84938b4027a4e49d8365f3b29743d0a0a3fe6a3d6cdf2f7e3e1628bc",
+      "bytes": 81658,
+      "role": "script",
+      "sourceUrl": "https://raw.githubusercontent.com/mrdoob/three.js/2410ad1a8f5844df00191600eafda59def537830/examples/js/loaders/GLTFLoader.js",
+      "upstreamPath": "examples/js/loaders/GLTFLoader.js",
+      "upstreamCommit": "2410ad1a8f5844df00191600eafda59def537830"
+    }
+  ]
+}

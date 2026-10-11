@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "packId": "com.prismforge.packs.coolbroadcast",
+  "version": "1.0.0",
+  "displayName": "Cool Broadcast Look",
+  "description": "Cool cyan broadcast grade with studio cap and precision overlay frame",
+  "author": "PrismForge Effects Studio",
+  "previewImagePath": "preview.raw",
+  "assets": [
+    {
+      "type": "CubeLut",
+      "id": "cool_broadcast_lut",
+      "path": "luts/cool_broadcast.cube",
+      "sha256": "bc76e580e14b26259faec7384e220cdce1782604ec826788fbaae180fea7d007",
+      "size": 1877
+    },
+    {
+      "type": "ScreenOverlay",
+      "id": "studio_frame",
+      "path": "overlays/studio_frame.json",
+      "sha256": "972f210b44b061350eb07dddcee2fa283c5b9268ebad46ddcc4641819983ce13",
+      "size": 172
+    },
+    {
+      "type": "TrackedAccessory",
+      "id": "studio_cap",
+      "path": "accessories/studio_cap.json",
+      "sha256": "f4ad8f3b817682b35c8c7cf031fc154cce9d088751b7c9c31755c641936cd5e2",
+      "size": 204
+    },
+    {
+      "type": "PreviewImage",
+      "id": "cool_broadcast_preview",
+      "path": "preview.raw",
+      "sha256": "717666ade9c04e64d73cf5bbc18460257461e3116a233748683b2bf0fa482b84",
+      "size": 16384
+    }
+  ]
+}

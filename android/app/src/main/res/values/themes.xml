@@ -1,0 +1,18 @@
+<resources>
+    <style name="Base.Theme.PrismForgeStudio" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/studio_accent</item><item name="colorOnPrimary">@color/studio_bg</item>
+        <item name="colorSurface">@color/studio_surface</item><item name="colorOnSurface">@color/studio_text</item>
+        <item name="android:windowBackground">@color/studio_bg</item><item name="android:statusBarColor">@color/studio_bg</item>
+        <item name="android:navigationBarColor">@color/studio_bg</item><item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans</item><item name="colorSecondary">@color/studio_accent</item>
+            <item name="studioBg">@color/studio_bg</item>
+        <item name="studioSurface">@color/studio_surface</item>
+        <item name="studioRaised">@color/studio_raised</item>
+        <item name="studioText">@color/studio_text</item>
+        <item name="studioMuted">@color/studio_muted</item>
+        <item name="studioAccent">@color/studio_accent</item>
+        <item name="studioGreen">@color/studio_green</item>
+        <item name="studioDanger">@color/studio_danger</item>
+</style>
+    <style name="Theme.PrismForgeStudio" parent="Base.Theme.PrismForgeStudio" />
+</resources>
