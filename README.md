@@ -56,7 +56,7 @@ material feature are outside V1's supported scope.
    choose the source on Windows.
 5. Select **PrismForge Studio** in your meeting or recording app's camera list.
 
-See [the illustrated setup and troubleshooting guide](docs/GETTING-STARTED.md)
+See [the setup and troubleshooting guide](docs/GETTING-STARTED.md)
 for Wi-Fi, updates and removal. Registration and removal are explicit actions;
 merely downloading this repository performs neither.
 
