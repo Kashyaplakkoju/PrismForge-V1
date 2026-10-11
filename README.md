@@ -24,7 +24,7 @@ tools. Downloadable Windows and APK files are on the
 
 ![PrismForge V1 desktop studio](docs/images/studio.png)
 *Actual V1 interface in its isolated preview mode. Camera and network services
-are disabled for these screenshots; no personal camera image is shown.*
+are disabled for these screenshots.*
 
 ![PrismForge V1 effects controls](docs/images/effects.png)
 
@@ -145,8 +145,7 @@ on Windows and Android; landscape is the default.
 ![PrismForge V2 Dusk glass appearance settings](docs/images/appearance-v2.png)
 
 *These are actual development screenshots of the native Windows V2 interface,
-captured in isolated UI preview mode. No personal camera feed, private screen
-content or device identifiers are shown. They illustrate the interface rather
+captured in isolated UI preview mode. They illustrate the interface rather
 than a live processing result.*
 
 Screen sharing and moving backgrounds currently carry **video only**. The
