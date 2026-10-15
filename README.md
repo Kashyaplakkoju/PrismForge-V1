@@ -116,8 +116,7 @@ separate paid edition in development. It builds on V1's camera, colour, lighting
 and accessory tools, with a redesigned workspace and new ways to present a
 screen alongside your camera.
 
-The free downloads above are **V1**. V2 source and binaries are not included in
-this repository, and a paid Store release has not been published.
+The free downloads provided above are for Version 1 (V1). Please note that Version 2 (V2), including both source code and binaries, is not included in this repository. A paid version is available for purchase at the following link: https://apps.microsoft.com/detail/9N883VG6Z593. You can try it for free once with a one-day trial before deciding whether to make a purchase.
 
 ### A workspace that makes room for your work
 
